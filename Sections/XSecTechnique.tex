@@ -1,0 +1,77 @@
+\section{Cross Section Extraction Technique}
+\label{sec:xsec}
+
+In this section we outline the technique we plan to use for this measurement.
+
+To measure a neutrino cross section on water, this analysis uses a statistical subtraction technique. As described in the previous section, the P0D is equipped with 25 drainable layers, each consisting of two water bags. These water layers are placed in an alternating pattern with layers of criss-crossing scintillator bars. We collect data during beam uptime while the water bags are filled with water and while they are drained of water. These two data sets are further subdivided into signal and background samples using a cut-based selection described later. The selected water-in and water-out signal event samples are background subtracted, effiiciency corrected and finally subtracted from one another to extract the water-only cross section. This section covers the formalism behind the statistical subtraction method. The cross section formula at the end of this section is further corrected for systematic biases. This is covered in a later section detailing detector systematics.
+
+A general cross section $\sigma$~(cm$^2$/nucleon) is related to the true event rate as
+follows:
+
+\begin{equation}
+N^{true} = \sigma T \Phi
+\label{eqn:xsec1}
+\end{equation}
+
+where $N^{true}$ is the number of neutrino induced interactions
+occurring in a volume containing $T$ total nucleons (neutrons and protons) with
+a neutrino flux of $\Phi$~(cm$^{-2}$). If we know the background rate ($B$)
+and efficiency ($\epsilon$) of a particular selection, then $N^{true}$ can also be
+related to $N^{obs}$, the observed number of interactions:
+
+\begin{equation}
+N^{true}=\frac{N^{obs}-B}{\epsilon}
+\label{eqn:xsec2}
+\end{equation}.
+
+Putting together equations \ref{eqn:xsec1} and \ref{eqn:xsec2}, we get
+the general cross section formula:
+
+\begin{equation}
+\sigma = \frac{N^{obs}-B}{\epsilon \Phi T}
+\label{eqn:xsec3}
+\end{equation}.
+
+We extend this simple formulation to the multi-sample, multi-target
+case in the P0D. There are two types of data, water-in and water-out (air), as
+well as many types of target material in the P0D. Using two versions of
+equation \ref{eqn:xsec1}, we get
+
+\begin{eqnarray}
+N^{true}_1 &=& \Phi_1 \sigma_w T_w + \Phi_1 \sum\limits_{i}\sigma_i
+T_i \nonumber \\
+N^{true}_2 &=& \Phi_2 \sum\limits_{i}\sigma_i T_i + \Phi_2 \sigma_{air} T_{air}\nonumber
+\label{eqn:xsec4}
+\end{eqnarray}
+
+\noindent where $N_1$ and $N_2$ are the total neutrino interactions in water-in
+and water-out data, respectively. The cross section on air ($\sigma_{air}$) and the number of air nucleons ($T_{air}$) are both very small, so the second term in the $N^{true}_2$ equation is negected. Since the water-in configuration of the P0D
+has water and various other target materials, we sum up the
+contributions individually. The $\Phi_1 \sigma_w T_w$ yields the
+water-only contribution to the interaction rate and the $\Phi_1
+\sum\limits_{i}\sigma_i$ term yields the contribution from all other
+target materials summed over material type $i$. The water-out configuration
+of the P0D has the exact same material types as the water-in
+configuration except air instead of water, so other than a different flux term
+($\Phi_2$), the water-out equation looks similar to the water
+equation. As we are interested in the water cross section, we solve
+for $\sigma_w$, which together with equation \ref{eqn:xsec2} yields:
+
+\begin{equation}
+\sigma_w = \frac{1}{T_w}\left[\frac{N^{obs}_1-B_1}{\epsilon_1
+    \Phi_1}-\frac{N^{obs}_2-B_2}{\epsilon_2\Phi_2}\right]
+\label{eqn:xsec5}
+\end{equation}.
+
+Monte Carlo estimations of $B_1$, $B_2$, $\epsilon_1$ and $\epsilon_2$
+in conjunction with the water-in and water-out selections from data then
+allow us to extract the water cross section. 
+
+For the measurement in this analysis, we have a few additional considerations. The selected number of events $N^{obs}_1$ and $N^{obs}_2$, the background terms $B_1$ and $B_2$ and the efficiency terms $\epsilon_1$ and $\epsilon_2$ are all dependent on the beam run number and the z position of the interaction vertex. The flux terms $\Phi_1$ and $\Phi_2$ are dependent on the beam run number as the beam luminosity increased over the course of the experiment. Therefore, we rewrite the cross section equation as follows:
+
+\begin{equation}
+\sigma_w = \frac{1}{T_w}\left[\frac{1}{\sum\limits_r \Phi_1(r)}\sum\limits_{r}^{1,2,4} \sum\limits_{z}^{40} \frac{N^{obs}_1(r,z)-B_1(r,z)}{\epsilon_1(r,z)}-\frac{1}{\sum\limits_r \Phi_2(r)}\sum\limits_{r}^{2,3,4} \sum\limits_{z}^{40} \frac{N^{obs}_2(r,z)-B_2(r,z)}{\epsilon_2(r,z)}\right]
+\label{eqn:xsec6}
+\end{equation}.
+
+Here the Z position of the vertex is assumed to be binned according to p0dule number in the P0D. This is sensible as the expected vertex resolution in the z direction is 1 p0dule.

@@ -1,0 +1,35 @@
+\subsubsection{Track Breaking}
+\label{sec:Systematics_TrackBreaking}
+
+{\color{red} This could potentially be a source of a large difference between MC
+and data. Barcelona completed a rather involved study. Our HM track selection
+allows the track to start in any detector. This means that a broken track might
+cause an incorrect HM selection and then fail our fiducial cut. To determine the
+level of this effect, we should use a single track topology that starts in the
+p0d and goes through the TPCs and determine how often it breaks. Of this broken
+track sample, we would run our HM selection on it to see how often the second
+track segment is selected instead of the first. We may use a sample of through
+going tracks or a reconstructed version of the p0d recon efficiency sample
+described above.
+
+The other option would make this simpler. We could alter our cuts so that
+instead of having our HM selection choose from THE highest momentum track in the
+ND280 detector, we just choose out of the highest momentum track in the \p0d with
+a TPC1 piece. This effectively eliminates a track multiplicity systematic as
+having multiple tracks from the same vertex is a physics systematic, not a
+detector one. However, this would actually change the sampled physics in our
+selection.
+
+Upon further discussion with Anthony, he dug up some numbers related to this.
+The track breaking percentage in data is 96+/-.2 percent and in monte carlo is
+97.5+/-0.1 percent...A clear difference. We need to find a way to propagate this
+to a systematic error in our analysis. As I said, this effect applies to us only
+if the second track segment was selected as the highest momentum track instead
+of the first. So essentially we need the number of tracks in data / MC during
+our selection method that failed our fiducial cut due to track breaking. Since
+we don't want to create a whole new sample, what I think makes sense is to ask
+Anthony for a sample of his "`broken"' tracks, and run our analysis on them. All
+we are looking for are the number of times in a broken track sample that the
+second track segment has a higher momentum than the first.
+
+}

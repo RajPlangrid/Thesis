@@ -1,0 +1,44 @@
+\subsection{Fiducial Mass}
+\label{sec:Systematics_FiducialMass}
+
+The calculation of the uncertainty in the \p0d fiducial mass 
+has already been discussed in Section \ref{sec:p0dsubdetector}. 
+To resummarize, we use a mass uncertainty of 0.69 \%. 
+Also, since the target mass is also different in the simulation 
+when compared to the data, we correct the Data/MC Ratio by dividing the number of selected MC events by 1.0317 and 1.028 in Run 1 and Run2 respectively. 
+This correction has already been applied 
+in Section \ref{sec:RatioResults}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}\toprule
+ & & Water-in \\
+%\hline
+\cline{3-3}
+Mass correction + 1$\sigma$ & & $-$0.0079 \\
+Mass correction $-$ 1$\sigma$ & & $+$0.0078 \\
+\bottomrule
+\end{tabular} 
+\caption{The fiducial mass systematics for the combined 
+Run 1, Run 2 and Run4 Water-in periods. 
+Mass correction +($-$) 1$\sigma$ corresponds to the case were 
+the correction mass was increase (decrease) by its error. }
+\label{tab:FMassSystematicsWaterIn}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}\toprule
+ & & Water-out \\
+%\hline
+\cline{3-3}
+Mass correction + 1$\sigma$ & & $-$0.0084 \\
+Mass correction $-$ 1$\sigma$ & & $+$0.0085 \\
+\bottomrule
+\end{tabular} 
+\caption{The fiducial mass systematics for the combined 
+Run 2, Run 3 and Run4 Water-out periods. 
+Mass correction +($-$) 1$\sigma$ corresponds to the case were 
+the correction mass was increase (decrease) by its error. }
+\label{tab:FMassSystematicsWaterOut}
+\end{table}

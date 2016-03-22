@@ -1,0 +1,6 @@
+\subsection{Physics Parameters}
+\label{sec:Systematics_PhysicsPar}
+\subsubsection{Cross Section Systematics}
+
+To calculate the physics model systematics, we implement a reweighting scheme using the software package T2KReWeight in combination with NEUT. We follow a similar methodology as outlined in the NIWG technical note T2K-TN-032. For now, the only parameters we vary are M_A^{QE}, M_A^{RES} and M_V^{RES}.
+\subsubsection{FSI Systematics}

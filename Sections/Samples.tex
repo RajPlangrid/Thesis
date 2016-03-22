@@ -1,0 +1,105 @@
+\section{Selection of Charged Current Inclusive Events}
+\label{sec:selectionheader}
+
+To measure the charged-current inclusive cross section on water, we must find good neutrino interaction data, clearly define the signal we are searching for and then apply a selection to determine CC inclusive event rates in the data. In the first step, we identify several, high-quality data and MC samples from the P0D corresponding to water-in and water-out configuration. Then we define what we consider a CC inclusive signal and finally we apply a cut-based selection to extract this signal from data and MC samples. This process is described in detail below and also in Ref~\cite{tn80}. While the data collection and MC generation was done by T2K as a whole, the event selection was entirely our work.
+
+\subsection{Data and Monte Carlo Samples}
+\label{sec:Samples}
+
+This analysis uses data collected by the T2K experiment from Jan 2010 to Feb 2013. The three years of data are divided into four beam runs, each run boasting greater beam stability and intensity than the last. As the P0D was designed to be drained of water and filled with water at any time, the data taking is also divided into water-in periods and water-out periods. The P0D ran with water in during beam run 1 and with water out for beam run 3. For beam runs 2 and 4 the P0D collected both water-in and water-out data. Whether to take water-in or water-out data was decided according to various analysis needs where an attempt was made to collect equal quantitites of events for both modes.
+
+We also consider the overall usability of collected data. The health and stability of the experimental apparatus is closely monitored both at the neutrino beam complex and the near detector facility. Any errors stemming from malfunctions or abnormal deviations in the beam setup, the near detectors or the data acquisition system are logged. These logs, both automatically and manually generated, are converted into data quality flags for each beam spill. Only events occurring within a beam spill with no bad data quality flags are used in this analysis.
+
+The total accumulated protons-on-target (POT) for each beam run is recorded in Tables \ref{tab:DataSamplesRun1Run2Run4} and \ref{tab:DataSamplesRun2airRun3airRun4air} for water-in and water-out running respectively. The total useable POT from each of these runs is also shown. Very little data was lost to data quality issues.
+
+\begin{table}[h]
+\centering
+\caption{The POT values available and used in the data analysis for 
+the water-in run periods}
+\begin{tabular}{cccc}\toprule
+\multirow{2}{*}{Data Set} & \multirow{2}{*}{Run Period} & \multicolumn{2}{c}{Protons On Target}\\
+ & & Total (Available) & DQ (Used) \\
+\hline
+Run 1 & Jan 2010 - Jun 2010 & $3.033\times 10^{19}$ & $2.946 \times 10^{19}$\\ 
+Run 2 & Nov 2010 - Feb 2011 & $6.974\times 10^{19}$ & $4.286 \times 10^{19}$\\ 
+Run 4 & Oct 2012 - Feb 2013 & $16.45\times 10^{19}$ & $16.24 \times 10^{19}$\\ 
+\hline
+Total &  & $26.46 \times 10^{19}$ & $23.47 \times 10^{19}$ \\ 
+\bottomrule
+\end{tabular} 
+\label{tab:DataSamplesRun1Run2Run4} %FIXME
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{The POT values available and used in the data analysis for 
+the water-out run periods}
+\begin{tabular}{cccc}\toprule
+\multirow{2}{*}{Data Set} & \multirow{2}{*}{Run Period} & \multicolumn{2}{c}{Protons On Target}\\
+ & & Total (Available) & DQ (Used) \\
+\hline
+Run 2 & Feb 2011 - Mar 2011 & $3.593\times 10^{19}$ & $3.552 \times 10^{19}$\\ 
+Run 3 & Apr 2012 - Jun 2012 & $13.58\times 10^{19}$ & $13.48 \times 10^{19}$\\ 
+Run 4 & Feb 2013 - Aug 2013 & $16.37\times 10^{19}$ & $15.86 \times 10^{19}$\\ 
+\hline
+Total &  & $33.54 \times 10^{19}$ & $32.89 \times 10^{19}$ \\ 
+\bottomrule
+\end{tabular} 
+\label{tab:DataSamplesRun2airRun3airRun4air} %FIXME
+\end{table}
+
+Similar to the real data, MC simulation is also divided into water-in and water-out P0D run modes. While an attempt has been made to generate as much simulated data as possible, resource constraints allow us to generate roughly an order of magnitude more events than exists in real data. However, the statistical power of the MC is assumed to be great enough to neglect statistical uncertainties from predictions made using the simulation with finite statistics. Primarily, the signal efficiencies and backgrounds that are estimated from the simulation do not have any statistical error assigned to them in the final measurement. As the size of the final statistical uncertainty is very small in comparison to the size of systematic errors, this approximation is very good. The calculation of statistical and systematic errors and a more detailed discussion of their relative sizes is included in following sections.
+
+Finally, the Monte Carlo sample attempts to mimic the near detector setup and the beam power used for each run and so we have separate Monte Carlo samples for each run. Beam run 1 for example has no P0DEcals installed and therefore requires a different detector geometry be used in the simulation software. Also the beam intensity is greatly increased in beam run 4 when compared to beam run 1, so this also requires separate simulation. The singular exception to this rule is the water-out simulation of beam run 4. There is no existing MC simulation for the run 4 water-out sample, so we use the closest approximation. Beam run 3 uses a beam intensity that is very close to run 4. Also the detector geometries in run 3 and run 4 are identical. So we simply re-normalize the water-out run 3 MC sample to the correct protons-on-target (POT) value for water-out run 4 data and recycle the sample. 
+
+The total simulated Protons on Target for each Monte Carlo sample is listed in Tables \ref{tab:MCSamplesRun1Run2Run4water} and \ref{tab:MCSamplesRun1Run2Run4air}. The simulated samples are all good data quality events by design.
+
+\begin{table}[h]
+\centering
+\caption{The available water-in MC samples and their corresponding 
+POT used for the water-in analysis}
+\begin{tabular}{cc} \toprule
+MC Configuration & Protons On Target \\
+\hline
+Run 1 & $55.10 \times 10^{19}$ \\ 
+Run 2 & $75.15 \times 10^{19}$ \\ 
+Run 4 & $496.2 \times 10^{19}$ \\ 
+\hline
+Total & $625.4 \times 10^{19}$ \\ 
+\bottomrule
+\end{tabular} 
+\label{tab:MCSamplesRun1Run2Run4water} %FIXME
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{The available water-in MC samples and their corresponding 
+POT used for the water-in analysis}
+\begin{tabular}{cc} \toprule
+MC Configuration & Protons On Target \\
+\hline
+Run 2 & $99.55 \times 10^{19}$ \\ 
+Run 3 & $161.1 \times 10^{19}$ \\ 
+\hline
+Total & $260.6 \times 10^{19}$ \\ 
+\bottomrule
+\end{tabular} 
+\label{tab:MCSamplesRun1Run2Run4air} %FIXME
+\end{table}
+
+\subsection{Signal Definition}
+\label{sec:SignalDefinition}
+
+We are using the P0D and the Tracker to make a measurement of the $\nu_\mu$ induced CC inclusive cross section on water. We primarily use a cut-based technique where events collected during beam uptime are separated into signal and background classifications. The signal events we are searching for are very specific and must satisfy the following requirements:
+
+\begin{itemize}
+\item Event is generated by the $\nu_\mu$ component of the beam.
+\item Event is a Charged Current inclusive interaction
+\item Event vertex is contained within the P0D fiducial volume (defined in Section \ref{sec:fidmassvol}).
+\end{itemize}
+
+Though the cross section is a measurement on water, we do not define non-water interactions as background. This is so we can use the statistical subtraction method outlined in Section \ref{sec:xsec}. Hence we select all signal events described above in both water-in and water-out P0D running. These event rates are corrected with the MC predicted background and signal efficiency for all CC inclusive events in the fiducial volume and then subtracted to extract the absolute water cross section. This technique reduces many systematic errors as we have a data-driven method for subtracting the non-water neutrino event background.
+
+We search for the muons produced from CC inclusive events by using the Tracker. As the P0D is 2.4~m in length, and the muon track must travel through it to enter the Tracker, we are necessarily selecting a more forward going and higher momentum set of muons compared to all the $\nu_\mu$ induced CC inclusive interaction muons produced in the P0D. However, we do not add any angular or momentum requirement in the signal definition. This implies we will evaluate very small MC signal efficiencies for steep muon tracks and for low momentum muon tracks. It follows that as this is an integrated result, for these events with low signal efficiency, we are more reliant on the MC cross section model to predict the proper efficiencies. A potential extension of this analysis is the measurement of CC inclusive event rates in the P0D fiducial volume where the muons have a steep angle and escape through the P0DEcals. 
+
+

@@ -1,0 +1,23 @@
+\subsection{TPC Momentum}
+\label{sec:Systematics_TPCMomentum}
+
+To estimate the systematic uncertainty related to momentum scale, we used the ND280 Tracker group study outlined in Section 4 of T2K-TN-071 by C. Bojechko et al.  In TN-071, events are resimulated using a measured field in place of a perfect field and reconstructed with a non-uniform magnetic field. The difference between the nominal simulation / reconstruction is compared to the non-uniform field simulation / reconstruction to arrive at a correction for the Data to MC ratio in two momentum bins of 0-2 GeV and 2+ GeV. The effect of using a non-uniform field for reconstruction is used as a systematic uncertainty.
+There are a few differences between the Tracker analysis and ours that are relevant here. First, we do not use the same binning scheme. Second, our target, the \p0d is situated upstream of TPC1 whereas FGD1 and FGD2, the targets of the Tracker analysis are upstream of TPC2 and TPC3 respectively. And finally, the p-$\theta$-$\phi$ space spanned by our CC inclusive sample is also different from the TN-015 sample. We can still however, use the TN-071 momentum systematics to come to a reasonable upper limit for our analysis. 
+We do not apply a correction to our Data to MC ratio. Instead, we quote the entire effect from re-simulation and re-reconstruction as the systematic. We also use the results from TPC2 and not TPC3. This gives a reasonable upper limit as TPC1 sits centrally within the magnet 
+and has a lower magnitude of magnetic field distortion. Also, any empirically observed distortions should be similar between TPC1 and TPC2. \\
+
+Directly from TN-071 then, the fractional systematic on momentum bin 2+ GeV is .004/.18 = 2.2\%. As the bins 0-2 GeV and 2+ GeV are exactly anticorrelated, we can calculate the systematic on our 0-2 GeV bin by comparing the total events in each bin. For Run 1 and Run 2, there are 4775 MC events in the 0-2 GeV bin and 2441 MC events in the 2+ GeV bin, giving a ratio of 2441/4775 = .511. So the systematic on the 0-2 GeV bin for Run 1 is .022*.511 = 1.1\%. As we do not know the correlation between the 2-5 GeV bin and the 5+ GeV bin, we assign those a systematic of 2.2\% each. We can repeat a similar excerise for Run 2 and arrive at a systematic of 1.2\% for the 0-2GeV bin and 2.2\% for the other two bins. Table \ref{tab:TPCmom} provides a quick summary of the final systematics.
+
+%\begin{table}[here]
+%\caption{Final momentum binning systematic assigned as well as the \% of total events in each bin for MC. Event counts are normalized to POT}
+%\label{tab:TPCmom}
+%\centering
+%\begin{tabular}{ccccc}\toprule
+%& \mc{2}{ Run 1 } & \mc{2}{ Run 2 }\\\midrule
+%Bin & Systematic & \% of Total Events & Systematic & \% of Total Events \\ \midrule
+%0 - 2 GeV & 1.1\% & 66.2\% & 1.2\% & 64.5\%\\
+%2 - 5 GeV & 2.2\% & 24.8\% & 2.2\% & 26.0\%\\
+%5+ GeV & 2.2\% & 9.0 \% & 2.2\% & 9.5\%\\
+%\bottomrule
+%\end{tabular}
+%\end{table}

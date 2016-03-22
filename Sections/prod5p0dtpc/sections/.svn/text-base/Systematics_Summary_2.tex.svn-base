@@ -1,0 +1,42 @@
+\subsection{Summary of Systematic Uncertainties}
+\label{sec:Systematics_Summary}
+
+{\color{red} Note that systematic effects from momentum scale and resolution in the Tracker have been neglected. From a previous CC Inclusive study binned into three muon momentum bins, we calculated the error to be at a few percent level per bin. As this result is integrated over muon momentum, these sytematic sources no longer have a first order effect. If the momentum scale and resolution in Data and MC are very different, they may have had a second order effect via some momentum dependent systematics we do evaluate. The three systematics that are possibly momentum dependent are those related to matching efficiency, TPC tracking efficiency and charge mis-ID. From Figures \ref{fig:eff_ND} and \ref{fig:eff(p)_eff(theta)} we see that the matching efficiency is relatively momentum independent. Similarly Table \ref{tab:tpc1eff} shows that a few percent shift of event rates from one momentum bin to another would have little effect on the extremely high TPC1 efficiencies across the board. Finally, the charge mis-ID rates in Data and MC are not drastically different. Though the misID rate is momentum dependent, the systematic error is propagated in multiple bins of momentum and then integrated together. Small migrations of events between momentum bins results in negligible changes in the integrated systematic value. Therefore, any second order effects of Tracker momentum systematics have been neglected when calculating the total uncertainty.}
+
+We summarize the systematic uncertainties that have been calculated 
+for Run 1 + Run 2 in Table \ref{tab:SysSum1}. The uncertainties have been added in quadrature to calculate the total systematic error. We do not expect any correlations between the different sources of uncertainty listed. In calculating a systematic error from its fractional one 
+we have used the unitary value for the data to MC ratio as 
+this is the conservative approach. 
+The total detector systematic errors 
+for Run 1 + Run 2 is $^{+1.80\%}_{-1.27\%}$.
+
+\begin{table}[here]
+\centering
+\begin{tabular}{lc}\toprule\midrule
+\renewcommand{\arraystretch}{1.1}
+Systematic Source &  
+\\ \midrule
+\p0d Tracking and Matching Efficiency & $^{+0.00260}_{-0.02092}$  \\
+\midrule
+Fiducial Mass & $^{+0.00599}_{-0.00599}$ \\
+\midrule
+Cosmic Contamination & $_{-0.00031}$ \\
+\midrule
+Fiducial Volume & $^{+0.00488}_{-0.00571}$ \\
+\midrule
+%Track Timing & $ \pm 0.00034$  \\
+%\midrule
+Out of \p0d FV & $^{+0.00168}_{-0.00168}$  \\
+\midrule
+TPC1 Tracking Efficiency & $^{+0.00148}_{-0.00148}$  \\
+\midrule
+Charge Mis-ID & $^{+0.00729}_{-0.00390} $  \\ %1.8
+\midrule
+\midrule
+Total Det. Sys. & {\color{red} $^{+0.02357}_{-0.00978} $ }  \\
+\midrule
+\bottomrule
+\end{tabular}
+\caption{Summary of Detector Systematic Errors for Run 1 + Run 2 combined.}
+\label{tab:SysSum1}
+\end{table}

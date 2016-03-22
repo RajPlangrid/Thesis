@@ -1,0 +1,81 @@
+\subsection{Charge Mis-ID}
+\label{sec:Systematics_ChargeMisID}
+
+We begin our study using the results of the charge mis-id study described in T2K-TN-048 v2.1 by Javier Caravaca et al. The following observations concerning our selection significantly simplify the propagation of the charge mis-ID systematic:
+\begin{enumerate}
+\item
+The vast majority of selected muon tracks have $> 40$ nodes in the TPC constituent
+\item The charge of the track is extracted only from TPC1, which makes the analysis insensitive to the global mismatching effects outlined in TN-048.
+\item As the tracks have a reconstructed vertex in the \p0d, most are forward going.
+\end{enumerate}
+
+So we use Table 2 on page 8 of TN-048, which lists the charge confusion rates for TPC tracks that satisfy the requirements listed above. To propagate the charge mis-ID systematic into our analysis, we use a simple approach. We begin with samples extracted from the entire Data and Monte Carlo sets by excluding the charge cut that is the very last CC inclusive cut. So we have quality matched tracks both positive and negative that originate in the \p0d and pass through TPC1. This Data and MC sample is further classified into two mutually exclusive subsets:
+
+\begin{enumerate}
+\item Beam bunches where the highest momentum track is reconstructed as positive
+\item Beam bunches where the highest momentum track is reconstructed as negative
+\end{enumerate}
+
+If a track in subset 1 had been misreconstructed as positive when in truth it was negative, then it is a candidate muon track which we missed. To correct for this, we must add the number of charge misidentified tracks in subset 1 to the total number of selected CC inlcusive events. Similarly, if a track in subset 2 had been misreconstructed as negative when in truth it was positive, then we must remove it from the number of candidate CC inclusive events. To calculate the number of tracks in each subset that were reconstructed with incorrect charge, we simply multiply by the charge mis-ID rate. So the corrected number of events after adjusting for charge mis-ID is given by:
+
+\begin{center}
+$N^{corr}(i) = N(i)+P(i)\cdot\left(N^{1}(i)-N^{2}(i)\right)$.
+\end{center}
+
+$N(i)$ is total number of events in subset 2 in a particular momentum bin $i$ and $N^{corr}(i)$ is the charge mis-ID corrected value in the same momentum bin. We chose to use subset 2 for the value of $N(i)$ as it is almost identical to the CC inclusive selection. $P(i)$ represents the probability of charge mis-ID in momentum bin $i$ extracted directly from Table 2 in TN-048 except for one small change. Negative probabilities are unphysical so we set them to 0. Any error on the probability is change to match (ex:$-0.2\pm 1$ is changed to $0 + 0.8$). Finally, $N^1$ and $N^2$ are the total number of tracks in subsets 1 and 2 respectively. Table \ref{tab:N_posneg} summarizes the number of tracks in each subset for different momentum bins in both Data and MC. Table \ref{tab:N_corr} then shows the charge mis-ID corrected number of CC inclusive events for Data and MC. 
+
+\begin{table}
+\caption{Number of Data and MC events in subset 1 and 2 for both Runs. MC values are normalized by POT, not flux-reweighted and not corrected for fiducial mass discrepancy.}
+\label{tab:N_posneg}
+\centering
+\begin{tabular}{cccccc}\toprule
+Data / MC & Mom. bin & Subset 1 & Subset 2 & Subset 1 & Subset 2\\
+& Water-in & Water-in & Water-out & Water-out \\\midrule
+& 0-1.3 GeV & 667 & 2463 & 1705 & 5627\\
+& 1.3-2.6 GeV & 220 & 983 & 486 & 1995\\
+Data & 2.6-4.0 GeV & 59 & 568 & 170 & 1290\\
+& 4.0-5.3 GeV & 21 & 286 & 62 & 551\\
+& 5.3+ GeV & 54 & 359 & 117 & 719 \\\midrule
+& 0-1.3 GeV & 701 & 2672 & 1886 & 5959\\
+& 1.3-2.6 GeV & 229 & 1025 & 547 & 2122\\
+MC & 2.6-4.0 GeV & 90 & 689 & 222 & 1409\\
+& 4.0-5.3 GeV & 34 & 350 & 83 & 731\\
+& 5.3+ GeV & 56 & 404 & 122 & 891 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{The charge mis-ID rate and the corrected number of CC inclusive events for Data and MC in different momentum bins for Water-in.}
+\label{tab:N_corr_w}
+\centering
+\begin{tabular}{ccccc}\toprule
+Mom. bin & Data Mis-ID Rate(\%) & MC Mis-ID Rate(\%) & $N^{corr}_{Data}$ & $N^{corr}_{MC}$ \\\midrule
+0-1.3 GeV & $0+0.8$ & $0+0.1$ &2463.0 &2672.0 \\
+1.3-2.6 GeV & $1.4\pm 0.7$ & $2.1\pm 0.1$  & 972.3 & 1008.5 \\
+2.6-4.0 GeV & $3.3\pm 1.3$ & $4.5\pm 0.1$ & 551.2 & 661.8 \\
+4.0-5.3 GeV & $6.1\pm 2.5$ & $4.5\pm 0.2$ & 269.8 & 335.9 \\
+5.3+ GeV & $12\pm 3$ & $13.1\pm 0.2$  & 322.4 & 358.5 \\\midrule
+Total & --  & --  & 4578.8 & 5036.7\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{The charge mis-ID rate and the corrected number of CC inclusive events for Data and MC in different momentum bins for Water-Out.}
+\label{tab:N_corr_a}
+\centering
+\begin{tabular}{ccccc}\toprule
+Mom. bin & Data Mis-ID Rate(\%) & MC Mis-ID Rate(\%) & $N^{corr}_{Data}$ & $N^{corr}_{MC}$ \\\midrule
+0-1.3 GeV & $0+0.8$ & $0+0.1$ & 5627.0 & 5958.7 \\
+1.3-2.6 GeV & $1.4\pm 0.7$ & $2.1\pm 0.1$  & 1973.9 & 2089.1 \\
+2.6-4.0 GeV & $3.3\pm 1.3$ & $4.5\pm 0.1$ & 1253.0 & 1355.7 \\
+4.0-5.3 GeV & $6.1\pm 2.5$ & $4.5\pm 0.2$ & 521.2 & 701.7 \\
+5.3+ GeV & $12\pm 3$ & $13.1\pm 0.2$  & 646.8 & 791.3 \\\midrule
+Total & --  & --  &10021.8 & 10896.6\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To extract systematics from Tables \ref{tab:N_corr_w} and \ref{tab:N_corr_a}, we recalculate the Data/MC ratio with the corrected values and take the difference from the nominal ratio. The nominal ratio is defined as the Data/MC ratio from the total number of events in subset 2. %The nominal ratio is 98.23\% and the corrected ratio is 98.56\%, which yields a systematic difference of 0.33\%.
+The errors on the charge mis-ID values are on the order of the misidentification rate itself, so we cannot ignore them. To be conservative, we linearly added and subtracted the mis-ID rate with the error in each bin. Any negative probabilities were set to 0. The change in Data/MC ratio was calculated for both the cases where all the mis-ID rates had gone up by 1 $\sigma$ and gone down by 1 $\sigma$. The larger change is assigned as a symmetric systematic error. We find a systematic of $\pm 0.75\% $ and $\pm 0.72\%$ from the charge mis-ID rate for water-in and water-out running respectively.

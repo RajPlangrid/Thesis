@@ -1,0 +1,48 @@
+\section{Introduction}
+\label{sec:Introduction}
+
+This note describes the analysis of Charged Current (CC) 
+inclusive events, $\nu_\mu + N \rightarrow \mu^- + X $, 
+whose vertex is in the Pi Zero Detector (\p0d) and
+its $\mu^-$ candidate track is reconstructed 
+by the Tracker Time Projection Chambers (TPC). 
+%The reported analysis follows those
+%described in T2K-TN-015 and T2K-TN-023 notes 
+%by the Saclay and Barcelona groups, respectively. \\
+
+The Production 4 samples used in this analysis 
+include several known issues and problems, 
+some of which should be corrected by later productions.
+The current work %analysis, which utilizes Production 4, 
+have addressed the related analysis issues, 
+which we list below,
+
+\begin{itemize}
+
+\item \p0d mass in the Monte Carlo. \\
+The \p0d mass in the Monte Carlo (MC) was set slightly different than the 
+constructed one~\cite{tn73}  
+therefore we added correction factors to adjust the MC rates accordingly. 
+
+\item Displacement between \p0d and TPC1. \\
+Displacement shifts in both X and Y \p0d coordinates with respect 
+to TPC1 are present in the Data. 
+To account for these, 
+an alignment correction (7 mm, 26 mm) was applied between the \p0d 
+and TPC1.  
+
+\end{itemize}
+
+Section 2 contains a short discussion on the \p0d mass followed 
+by Section 3 that describes the Data and MC samples used 
+in the current analysis. 
+Next in Section 4 the Event reconstruction components are 
+laid out. These include energy corrections in the \p0d 
+and matching procedure between the \p0d and Tracker sub-detectors.
+In Section 5, the selection cut flow is described. 
+In addition, this section contains the selected 
+distributions for both Data and MC samples and a comparison between them.
+Section 6 details the different systematic studies that were 
+preformed and finally Section 7 summarizes the final result.
+
+

@@ -1,0 +1,15 @@
+\section{Result of the CC Inclusive Selection}
+\label{sec:Results}
+
+The analysis  reported here contains a full systematic evaluation, 
+which included both \p0d and Tracker tracks studies 
+and utilizes different control samples and methods.
+
+This analysis yields the combined Run 1+ Run 2 Data/MC ratio result of 
+%$0.869 \pm 0.010 (stat.) ^{+0.018}_{-0.0123} (syst.)$ 
+{\color{red}
+$ 0.868 \pm 0.011 (stat.) ^{+0.024}_{-0.010} (syst.)$.
+( $ 0.868 \pm 1.27\% (stat.) ^{+2.72\%}_{-1.13\%} (syst.)$ )
+}
+for \p0d  events that occur in the \p0d WT and have the 
+muon candidate track pass through TPC1.

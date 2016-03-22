@@ -1,0 +1,262 @@
+\subsection{Other Checks on the CC Inclusive Selection and Analysis}
+\label{sec:OtherChecks}
+
+\subsection{\p0d and Tracker Reconstruction}
+\label{sec:P0DTrackerAnalysis}
+
+As a cross-check of the analysis presented in Sec. \ref{sec:InclusiveAnalysis}
+using Global Reconstruction, a separate analysis was performed using the
+reconstructed events from \p0d Reconstruction and Tracker Reconstruction.
+
+\subsubsection{Overview and Event Selection}
+
+Using two separate reconstruction containers (\p0d Recon and Tracker Recon)
+necessitates a different approach than the single-container (Global) analysis
+outlined in Section \ref{sec:InclusiveSelection}. 
+
+The selection of events in this analysis was chosen to mimic as closely as
+possible the event selection outlined in Section \ref{sec:InclusiveSelection}.
+Identical cuts are not possible due to the different nature of the Global
+Reconstruction vs. the \p0d and Tracker Reconstruction. The requirement of good
+ND280 Data Quality flags is the same, as are the fiducial volume and
+timing bunch cuts. 
+
+Starting within the \p0d recon container, the cycles corresponding to beam
+bunches were looped over, taking note of reconstructed vertices within each
+cycle. Tracks were examined for each reconstructed vertex, and the longest track
+within such a vertex that begins within the \p0d fiducial volume and ends at the
+downstream end of the \p0d was saved. 
+
+In the Tracker Reconstruction, all negative curvature tracks from an event with
+a z-position consistent with the beginning of TPC-1 and with timing commensurate
+with one of the saved \p0d tracks were also saved.  A rudimentary track-matching
+algorithm was applied to all \p0d / TPC-1 pairs that satisfied the above
+criteria as described in the next section.
+
+\subsubsection{Track Matching}
+
+The direction of the \p0d track was used to extrapolate the track forward in z
+to the front plane of TPC-1. The distance in the x-y plane between the
+extrapolated \p0d track and the Tracker track as well as the difference in angle
+between the \p0d track direction and the Tracker track direction were used as
+matching criteria.  Truth information trajectory IDs (Track IDs in Geant4
+parlance) from the Monte Carlo files were used to set the cuts on the radial and
+angular cut. Signal track matches were defined as \p0d and Tracker tracks
+matches that pass the event-selection cuts, have the same trajectory ID, and are
+muons (PDG code == 13). Background track matches were defined as \p0d and
+Tracker tracks that pass the event-selection cuts, but have different trajectory
+IDs for the \p0d and Tracker tracks. A quality factor, 
+\begin{equation}
+Q = \frac{N_{\text{Signal}}}{\sqrt{N_\text{BG}}},
+\label{eq:TrackMatchQuality}
+\end{equation}
+was maximized and the resultant $r$ and $\sin \theta$ values were used as cuts
+(Fig. \ref{fig:CrossCheckTrackMatchingQuality}).
+
+\begin{figure}
+\centering
+\subfloat[Run 1, coarse view]{
+\includegraphics[width=0.48\textwidth]{Figures/CrossCheck/TrackMatchQualityNeutRun1Coarse.eps}
+}
+\subfloat[Run 1, zoomed in]{
+\includegraphics[width=0.48\textwidth]{Figures/CrossCheck/TrackMatchQualityNeutRun1Fine.eps}
+}
+
+\subfloat[Run 2, coarse view]{
+\includegraphics[width=0.48\textwidth]{Figures/CrossCheck/TrackMatchQualityNeutRun2Coarse.eps}
+}
+\subfloat[Run 2, zoomed in]{
+\includegraphics[width=0.48\textwidth]{Figures/CrossCheck/TrackMatchQualityNeutRun2Fine.eps}
+}
+\caption{Optimization of track-matching parameters. The \p0d track is
+extrapolated forward to the front plane of TPC-1 and the distance in the x-y
+plane is calculated. The quality factor from Eq. \ref{eq:TrackMatchQuality} is
+plotted. Figures (a) and (b) show the optimized region for Run 1,
+where a radial cut of 76 cm and an angular cut of $\sin\theta < 0.31$ are
+optimal. Figures (c) and (d) show Run 2, where the optimal cuts are at $r < 82$
+cm and $\sin\theta < 0.36$.
+}
+\label{fig:CrossCheckTrackMatchingQuality}
+\end{figure}
+
+
+
+\subsubsection{Data / Monte Carlo Comparison}
+
+Plots showing the comparison of data to Monte Carlo for a variety of vertex
+variables (x, y, and z position, $\phi$ and $\cos\theta$ of the track's
+direction, and the corrected-energy momentum) are shown in Fig.
+\ref{fig:CrossCheckRun1First}, \ref{fig:CrossCheckRun1SecondZ},
+\ref{fig:CrossCheckRun1SecondMom}, \ref{fig:CrossCheckRun2First},
+\ref{fig:CrossCheckRun2SecondZ}, and \ref{fig:CrossCheckRun2SecondMom}. Table
+\ref{tab:CrossCheckCompare} tabulates the ratios of data to Monte Carlo for this
+cross check analysis and compares it with the results of the global analysis.
+
+
+
+\begin{table}[h]
+\centering
+\caption{Ratio of Data to MC calculated via both the Global analysis method and the outlined cross check method. The Global ratios presented are flux-reweighted but uncorrected for fiducial mass and global tracking effieciency.}
+\label{tab:CrossCheckCompare}
+\begin{tabular}{clcccl}\toprule
+& & \mc{2}{Ratio} & \mc{2}{Events}\\ \cmidrule(rl){3-4}\cmidrule(rl){5-6}
+Run & Momentum  &Global & Cross  & Global & Cross \\ 
+    & Bin       &       & check  &        & check \\ \midrule
+1 & 0-10 GeV & -- & $0.878\pm0.013$ & & 4849 \\
+ & 0-2 GeV & $0.919\pm0.015$ & $0.884\pm0.016$& 4392 & 3087  \\ 
+ & 2-5 GeV & $0.814 \pm0.027 $ & $0.920\pm0.025$& 1455 & 1445  \\
+ & 5-10 GeV & -- & $0.688\pm0.039$& & 317   \\ \midrule
+2 & 0-10 GeV & -- & $0.904\pm0.012$& & 6410  \\
+ & 0-2 GeV & $0.887 \pm 0.013 $ & $0.910\pm0.014$& 5585 & 4165 \\ 
+ & 2-5 GeV & $0.825 \pm 0.023 $ & $0.915\pm0.022$& 2094 & 1812  \\ 
+ & 5-10 GeV & -- & $0.811\pm0.040$& & 433\\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\subfloat[X: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterX0-10GeV.eps}
+}
+\subfloat[X: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterX0-2GeV.eps}
+}
+\subfloat[X: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterX2-5GeV.eps}
+}
+
+\subfloat[Y: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterY0-10GeV.eps}
+}
+\subfloat[Y: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterY0-2GeV.eps}
+}
+\subfloat[Y: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterY2-5GeV.eps}
+}
+
+
+\subfloat[$\phi$: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterPhi0-10GeV.eps}
+}
+\subfloat[$\phi$: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterPhi0-2GeV.eps}
+}
+\subfloat[$\phi$: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterPhi2-5GeV.eps}
+}
+
+\subfloat[$\cos\theta$: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterTheta0-10GeV.eps}
+}
+\subfloat[$\cos\theta$: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterTheta0-2GeV.eps}
+}
+\subfloat[$\cos\theta$: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterTheta2-5GeV.eps}
+}
+
+\caption{Vertex information from \p0d tracks using \p0d and Tracker reconstruction
+for Run 1 (X, Y, $\phi$, and $\cos\theta$ of the \p0d track).}
+\label{fig:CrossCheckRun1First}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfloat[Z: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterZ0-10GeV.eps}
+}
+\subfloat[Z: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterZ0-2GeV.eps}
+}
+\subfloat[Z: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run1/Run1WaterZ2-5GeV.eps}
+}
+\caption{Z Vertices from \p0d tracks using \p0d and Tracker
+reconstruction for Run 1. The dashed vertical blue lines indicate the boundaries
+of the Super \p0dules.}
+\label{fig:CrossCheckRun1SecondZ}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.82\textwidth]{Figures/CrossCheck/Run1/Run1WaterMom0-10GeV.eps}
+\caption{Corrected momentum from \p0d tracks using \p0d and Tracker
+reconstruction for Run 1 .}
+\label{fig:CrossCheckRun1SecondMom}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\subfloat[X: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterX0-10GeV.eps}
+}
+\subfloat[X: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterX0-2GeV.eps}
+}
+\subfloat[X: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterX2-5GeV.eps}
+}
+
+\subfloat[Y: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterY0-10GeV.eps}
+}
+\subfloat[Y: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterY0-2GeV.eps}
+}
+\subfloat[Y: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterY2-5GeV.eps}
+}
+
+
+\subfloat[$\phi$: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterPhi0-10GeV.eps}
+}
+\subfloat[$\phi$: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterPhi0-2GeV.eps}
+}
+\subfloat[$\phi$: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterPhi2-5GeV.eps}
+}
+
+\subfloat[$\cos\theta$: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterTheta0-10GeV.eps}
+}
+\subfloat[$\cos\theta$: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterTheta0-2GeV.eps}
+}
+\subfloat[$\cos\theta$: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterTheta2-5GeV.eps}
+}
+
+\caption{Vertex information from \p0d tracks using \p0d and Tracker reconstruction
+for Run 2 (X, Y, $\phi$, and $\cos\theta$ of the \p0d track).}
+\label{fig:CrossCheckRun2First}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfloat[Z: 0-10 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterZ0-10GeV.eps}
+}
+\subfloat[Z: 0-2 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterZ0-2GeV.eps}
+}
+\subfloat[Z: 2-5 GeV]{
+\includegraphics[width=0.3\textwidth]{Figures/CrossCheck/Run2/Run2WaterZ2-5GeV.eps}
+}
+\caption{Z Vertices from \p0d tracks using \p0d and Tracker
+reconstruction for Run 2. The dashed vertical blue lines indicate the boundaries
+of the Super \p0dules.}
+\label{fig:CrossCheckRun2SecondZ}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.82\textwidth]{Figures/CrossCheck/Run2/Run2WaterMom0-10GeV.eps}
+\caption{Corrected momentum from \p0d tracks using \p0d and Tracker
+reconstruction for Run 2 .}
+\label{fig:CrossCheckRun2SecondMom}
+\end{figure}
+
+

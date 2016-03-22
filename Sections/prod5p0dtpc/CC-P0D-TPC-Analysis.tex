@@ -1,0 +1,96 @@
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage{lineno}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{authblk}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage[margin=2.5cm]{geometry} % to change the page dimensions
+\usepackage{epstopdf}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{color}
+\usepackage{cancel}
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+
+\def \p0d{P\cancel{0}D}
+
+%%% HEADERS & FOOTERS
+
+%%% SECTION TITLE APPEARANCE
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\begin{document}
+\linenumbers
+\newcommand{\DocN}{T2K TN-080 V4}
+\newcommand{\titlename}{
+Analysis of $\nu_{\mu}$ Charged Current Inclusive Events in the \p0d \\
+in Run 1+2+3+4}
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+\pagestyle{fancy} % options: empty , plain , fancy
+\lhead{Inclusive $\nu_{\mu}$ CC events in the \p0d in Run 1+2+3+4}
+\rhead{\DocN}
+
+\rfoot{T2K TN-080 V4}
+
+\title{\titlename \\ {\small \DocN}}
+\author[1]{Alex Clifton}
+\author[1]{Rajarshi~Das}
+\author[2]{Rob A.~Johnson}
+\author[2]{Alysia D.~Marino}
+\author[1]{Erez~Reinherz-Aronis}
+\author[1]{Walter~Toki}
+\author[2]{Tianlu~Yuan}
+\affil[1]{\footnotesize \em Colorado State University, Fort Collins, Colorado, USA}
+\affil[2]{\footnotesize \em University of Colorado, Boulder, Colorado, USA}
+
+
+
+\maketitle
+
+\input{Sections/FrontMatter.tex}
+\input{Sections/Introduction.tex}
+\input{Sections/Description.tex}
+\input{Sections/Files.tex}
+\input{Sections/Reconstruction.tex}
+\clearpage
+%\input{Sections/InclusiveSelection.tex}
+\input{Sections/InclusiveAnalysis.tex}
+\clearpage
+\clearpage
+\input{Sections/Systematics.tex}
+\input{Sections/Systematics_HomeBrewMatching.tex}
+\input{Sections/Systematics_HitEfficiency.tex}
+\input{Sections/Systematics_FiducialMass.tex}
+\input{Sections/Systematics_Cosmics.tex}
+\input{Sections/Systematics_FiducialVolume.tex}
+\input{Sections/Systematics_TrackTiming.tex}
+\input{Sections/Systematics_EventPileUp.tex}
+\input{Sections/Systematics_OutofFV.tex}
+\input{Sections/Systematics_TPC1tracking.tex}
+\input{Sections/Systematics_ChargeMisID.tex}
+\clearpage
+\input{Sections/Systematics_Summary_2.tex}
+\input{Sections/Results.tex}
+\input{Sections/Bibliography.tex}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\input{Sections/Appendix}
+\end{document}

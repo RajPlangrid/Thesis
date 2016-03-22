@@ -1,0 +1,127 @@
+\subsubsection{Global Tracking Efficiency}
+\label{sec:Systematics_GlobalTracking}
+
+The efficiency of reconstruction, and the differences between Monte Carlo and data efficiencies, are the first source of systematic uncertainty studied for the CC Inclusive selection. There are multiple packages and algorithms responsible for the final reconstruction objects (i.e. tracks, showers, etc.) used in our analysis. The Tracker and the \p0d independently reconstruct objects via separate algorithms. These sub-detector specific reconstruction objects are passed to a global ND280 reconstruction package, which is responsible for matching and combining the separate pieces to form global objects. \\
+
+We present a simple systematic study that examines the efficiency of the ND280 Global
+Reconstruction package for tracks that originate in the \p0d, enter the Tracker and are reconstructed by the Tracker reconstruction package. 
+We determine how often Global reconstruction successfully fits the entire track using a simple scheme. 
+We select a sample of tracks reconstructed in the TPC1 tracker that point squarely into the 
+\p0d. We compare this sample to the Globally reconstructed \p0d + TPC1 tracks. The ratio of the number
+of these \p0d Globally reconstructed tracks to the number of reconstructed TPC1 tracks is our
+simple definition of an ``inclusive" global tracking efficiency. 
+We do not expect this definition of global tracking efficiency to be 100 percent
+nor a perfect estimate of the absolute efficiency, but we
+would expect that the data efficiency and the MC efficiency as calculated by 
+this scheme should yield very similar ratios. The observed differences would be our estimate
+of the systematic uncertainty in the reconstruction efficiency.
+
+This definition folds in the \p0d's intrinsic, lower level reconstruction efficiencies (i.e. hit finding, \p0d-only tracking, etc.) as well as matching and recombination efficiencies that are a part of global reconstruction's jurisdiction. However, as we use reconstructed tracks in the ND280 Tracker as a baseline, we do not account for the Tracker tracking efficiency with this strategy. We determine the systematic uncertainty from the Tracker efficiency separately in a later section.\\
+
+To extract the global tracking efficiency as defined above, we begin with good ND280 data quality beam spill data and beam Monte Carlo and make the following selection criteria:
+
+\begin{enumerate}
+\item There must be a Tracker reconstructed track in the event
+\item The Tracker track must be reconstructed as beginning at the upstream face of the first TPC
+\item The TPC must measure a momentum of at least 100 MeV
+\item Project the Tracker track linearly backwards to the middle $z$ position of the \p0d Central ECAL and require that the X and Y positions of the projection fall within a Fiducial window
+\item Use the \p0d to self-veto all events with any activity outside the Fiducial volume
+\item The Track time as given by Tracker reconstruction must not be equal to 5000 ns. This time stamp is associated with a track without a recorded pedestal time (T0).
+\end{enumerate}
+
+The number of total Tracker tracks remaining after all of the above cuts yields the denominator of the global tracking efficiency. One additional cut is then applied to extract numerator:
+
+\begin{enumerate}
+\item There must be a Globally reconstructed track that is a combination of a track in the \p0d and a track in the Tracker
+\end{enumerate}
+
+The total number of such surviving global tracks is taken as the numerator.\\
+
+We also present a discussion of the cuts applied and the rationale behind each. Recall that as a baseline, we require tracks that begin in the \p0d and enter the Tracker. To select such tracks, we have required that a track is reconstructed in the Tracker (cut 1) and set several additional constraints (cuts 2 - 4) that make it likely that the origin of the track was actually inside the \p0d. There is a possibility that a track clips a corner of the \p0d and enters the TPC, which would result in no energy deposition in the \p0d and therefore no reconstructed object. Cut 4 significantly reduces this possibility by checking that the reconstructed track in the Tracker points into the \p0d. Finally, cuts 5 and 6 reduce the amount of background or incorrectly timed tracks. Using the \p0d to self-veto eliminates tracks that are entering from the outside of the \p0d (such as sand muons). As sand muons are still not simulated in the Monte Carlo, the presence of such tracks in our selection might bias the final efficiency numbers. The track time requirement, cut 6, is simply a veto on tracks where the TPC did not find a pedestal time to use for track reconstruction in the drift plane.\\
+
+The efficiencies and ratio of efficiencies between Monte Carlo and data for the two run configurations are shown in Table \ref{tab:globefftab_1} and Table \ref{tab:globefftab_2} respectively. The errors stated are statistical and shows the statistically limited nature of this method. Each table shows the errors for the three momentum bins.\\
+
+%\begin{table}[here]
+%\caption{Global Tracking Efficiency and Data/MC Ratio of Efficiency as a function of Track charge}
+%\label{tab:globefftab}
+%\centering
+%\begin{tabular}{ccccc}\toprule
+%& \mc{2}{Run 1} & \mc{2}{Run 2} \\\midrule
+%&+&--&+&--\\\midrule
+%Data & $55.16 \pm 2.64$ & $81.31 \pm 2.07$ & $49.83 \pm 2.28$ & $77.64 \pm 1.88$\\
+%MC & $51.68 \pm 0.50$ & $81.00 \pm 0.44$ & $50.14 \pm 0.37$ & $78.69 \pm 0.33$ \\\midrule
+%Ratio & $106.73 \pm 5.21$ & $100.38 \pm 2.61$ & $99.38 \pm 4.61$ & $98.67 \pm 2.42$\\
+%\bottomrule
+%\end{tabular}
+%\end{table}
+
+
+
+\begin{table}[here]
+\caption{Run 1 Global Tracking Efficiency and Data/MC Ratio of Efficiency as a function of Track charge}
+\label{tab:globefftab_1}
+\centering
+\begin{tabular}{ccccccc}\toprule
+& \mc{3}{Positive Tracks} & \mc{3}{Negative Tracks} \\\midrule
+& 0-2 GeV & 2-5 GeV & 5+ GeV & 0-2 GeV & 2-5 GeV & 5+ GeV\\\midrule
+Data & $53.99 \pm 2.69$ & $72.15 \pm 12.54$ & $71.98 \pm 8.25$ & $81.14 \pm 2.28$ & $82.17 \pm 5.04$ & $82.30 \pm 8.47$ \\
+MC & $49.89 \pm 0.51$ & $74.99 \pm 2.43$ & $76.95 \pm 2.29$ & $80.46 \pm 0.48$ & $83.84 \pm 1.13$ & $82.93 \pm 1.89$ \\\midrule
+Ratio & $108.22 \pm 5.50$ & $96.21 \pm 17.01$ & $93.54 \pm 11.08$ & $100.85 \pm 2.90$ & $98.01 \pm 6.15$ & $99.24 \pm 10.46$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[here]
+\caption{Run 2 Global Tracking Efficiency and Data/MC Ratio of Efficiency as a function of Track charge}
+\label{tab:globefftab_2}
+\centering
+\begin{tabular}{ccccccc}\toprule
+& \mc{3}{Positive Tracks} & \mc{3}{Negative Tracks} \\\midrule
+& 0-2 GeV & 2-5 GeV & 5+ GeV & 0-2 GeV & 2-5 GeV & 5+ GeV\\\midrule
+Data & $48.24 \pm 2.31$ & $71.88 \pm 11.34$ & $72.30 \pm 9.17$ & $76.79 \pm 2.05$ & $81.79 \pm 4.75$ & $75.00 \pm 7.52$\\
+MC & $48.35 \pm 0.38$ & $73.74 \pm 1.83$ & $78.71 \pm 1.73$ & $77.68 \pm 0.35$ & $83.93 \pm 0.85$ & $82.10 \pm 1.39$ \\\midrule
+Ratio & $99.77 \pm 4.84$ & $97.48 \pm 15.57$ & $91.86 \pm 11.82$ & $98.85 \pm 2.68$ & $97.45 \pm 5.74$ & $91.35 \pm 9.29$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_0.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_1.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_2.eps} 
+\caption{Run 1 Tracking Efficiencies. Left: The Global tracking efficiency as a function of TPC measured momentum times charge. Middle: The Global tracking efficiency as a function of Tracker reconstructed track Cos Theta. Right: The Global tracking efficiency as a function of Tracker reconstructed track Phi. Data (MC) is in black (orange) and statistical errors are shown.}
+\label{fig:globeffrun1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_5.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_6.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run1/CEff_7.eps} 
+\caption{Run 1 Data/MC Tracking Efficiency ratio. Left: The Global tracking efficiency ratio as a function of TPC measured momentum times charge. Middle: The Global tracking efficiency ratio as a function of Tracker reconstructed track Cos Theta. Right: The Global tracking efficiency ratio as a function of Tracker reconstructed track Phi. Statistical errors are shown.}
+\label{fig:globeffratiorun1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_0.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_1.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_2.eps} 
+\caption{Run 2 Tracking Efficiencies. Left: The Global tracking efficiency as a function of TPC measured momentum times charge. Middle: The Global tracking efficiency as a function of Tracker reconstructed track Cos Theta. Right: The Global tracking efficiency as a function of Tracker reconstructed track Phi. Data (MC) is in black (orange) and statistical errors are shown.}
+\label{fig:globeffrun2}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_5.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_6.eps}
+\includegraphics[width=2in]{Figures/GlobTrackingEff/run2/CEff_7.eps} 
+\caption{Run 2 Data/MC Tracking Efficiency ratio. Left: The Global tracking efficiency ratio as a function of TPC measured momentum times charge. Middle: The Global tracking efficiency ratio as a function of Tracker reconstructed track Cos Theta. Right: The Global tracking efficiency ratio as a function of Tracker reconstructed track Phi. Statistical errors are shown.}
+\label{fig:globeffratiorun2}
+\end{figure}
+
+We also performed several checks to fully understand the efficiency numbers. Using Monte Carlo, we examined true distributions of succesfully reconstructed global tracks as well as reconstruction failures. The vast majority of reconstruction failures have a true vertex very far downstream in the \p0d. This was expected as \p0d-only reconstruction cannot collect strings of nodes less than 4 \p0dules long and form them into tracks. As tracks originating in the downstream end of the \p0d only leave behind a few layers of nodes, \p0d-only reconstruction suffers from a strong inefficiency that translates to an inefficiency in the Global reconstruction. We also note that some 5\% of the tracks actually originated in the upstream material of TPC1 and should not be expected to be reconstructed in the \p0d to begin with. We believe however that these effects are similar in data and Monte Carlo and are second order in nature, and so do not require any correction from this in our final systematic uncertainty. We also check the global tracking efficiency as a function of TPC measured momentum and find that though there is a correlation between efficiency and track momentum, the data and Monte Carlo track within error (Figures \ref{fig:globeffrun1} to \ref{fig:globeffratiorun2}). \\
+ 
+Finally, we examined the efficiency as functions of the $cos\theta$  and $\phi$ of track angle in the TPC. No obvious differences were found between MC and data that would require assigning the systematic uncertainty in multiple bins of the above parameters (Figures \ref{fig:globeffrun1} to \ref{fig:globeffratiorun2}). Our current approach in estimating the Global tracking systematic is as follows. The Data / MC ratio is corrected or ``renormalized" by dividing out the central value of the efficiency ratio and the quoted systematic is the uncertainty on the efficiency ratio. For Run 1, the Data to MC ratio in bins 0-2 GeV, 2-5 GeV and 5+ GeV will be divided by 1.0085, 0.9801 and .9924 respectively with systematic errors of 2.9\%, 6.15\% and 10.46\% respectively. For Run 2, the Data to MC ratio in bins 0-2 GeV, 2-5 GeV and 5+ GeV will be divided by 0.9885, 0.9745 and 0.9135 respectively with systematic errors of 2.68\%, 5.74\% and 9.29\% respectively. Note that this method is extremely dependent on the available statistics. As ND280 integrates more data, this method improves greatly in its effectiveness.
+

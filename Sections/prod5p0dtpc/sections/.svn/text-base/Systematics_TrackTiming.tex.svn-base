@@ -1,0 +1,49 @@
+\subsection{Track Timing}
+\label{sec:Systematics_TrackTiming}
+
+To estimate the track timing systematic values 
+we used a similar approach as the FV systematics, where we 
+varied simultaneously all of our track timing window boundaries 
+outside and inside, 
+by $\pm$15 ns and $\pm$18 ns for Run 1 and Run 2 respectively.
+These variations are the average timing distribution widths for tracks
+in each bunch for the different run periods.\\
+
+The time systematic study had shown no change in the number of 
+selected events for Run 1. For Run 2 we found a change in the 
+selected number of events only for the variation of the 
+time window 'inside' by one event for the Data sample and 
+by less than one event (after POT normalization).
+From the above one finds that this systematic is negligible 
+and therefore we do not include it in the final systematic table. \\
+
+%\begin{table}[h]
+%\centering
+%\begin{tabular}{ccccc}\toprule
+% & & Run 1 & & Run 2\\
+%%\hline
+%\cline{3-3}\cline{5-5}
+%Outside & & $-$0.00003 & & +0.00009 \\
+%Inside & & +0.00005 & &+0.00034 \\
+%\bottomrule
+%\end{tabular} 
+%\caption{The track timing systematics for both Run 1 and Run 2. 
+%Outside (Inside) corresponds to the case where the boundaries were 
+%varied outside (inside) of the official ones. }
+%\label{tab:TrkTimingSyatematics} 
+%\end{table}
+%
+%We recalculated the data-to-MC ratios for the outside and inside cases 
+%and extracted from these rates the corresponding systematics values. 
+%Table \ref{tab:TrkTimingSyatematics} 
+%summarizes these values for both run periods. 
+%This study also used Global Reconstruction instead of the Tracker to \p0d 
+%matching algorithm. However, the track times correspond to the arrival 
+%times of the beam bunches and are well within our timing windows cuts. 
+%Therefore the behavior of Global Reconstruction time stamps and 
+%\p0d reconstruction time stamps should not introduce any appreciable change 
+%to this negligible systematic. 
+%We adopt a conservative approach and quote the largest value 
+%from Table \ref{tab:TrkTimingSyatematics}, $\pm 0.00034$,
+%as a symmetric systematic due to track timing. 
+%

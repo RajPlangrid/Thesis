@@ -1,0 +1,306 @@
+\subsection{Out of \p0d Fiducial Volume Background}
+\label{sec:Systematics_OutofFV}
+
+%The Out-of-Fiducial Volume (Out-of-FV) 
+%background (as found by the MC) comes from 
+%%uses we currently used the 
+%%approach that 
+%interactions whose truth vertex is outside the fiducial volume region.
+%We need to estimate the certainty in this background from 
+%events whose vertex is outside the fiducial volume region.
+%   
+%Our approach uses the the Data to MC ratios measured
+%outside the fiducial volume regions. If for example we find the Data to
+%MC ratios in those regions are exactly, $1.0$, then the uncertainty
+%from these backgrounds is predicted to be zero. 
+%If the Data to MC ratio is
+%found to be $1.1$ in the \p0d CECal region, then we would 
+%estimate the uncertainty of  the out of FV background
+%from the \p0d CECal to be about  $10\%$ of the 
+%nominal predicted out of FV background from the\p0d
+%CECal.
+%
+%An investigation of the Out-of-FV sample found that the main 
+%source of backgrounds are interactions that occur in the \p0d CECal, 
+%which have backwards going tracks, that were reconstructed in the 
+%Water-Target FV. As a result 
+%%For this MC study, 
+%we defined for this systematic study three volumes 
+%outside the \p0d WT \cite{tn73}. This includes 
+%the \p0d active volume (X or Y coordinate within $\pm1200\ mm$, 
+%$-3400\ mm < $Z$ < -930\ mm$), which is divided into two regions, 
+%the CECal ($-1266\ mm <$ Z) and the rest of the active volume.
+%The third volume is the most outer one that is, the region 
+%outside of the \p0d active volume. 
+%The last volume includes both the surrounding UK \p0d ECal and the SMRD.\\
+%
+%The fraction of events in the different volumes for the combined 
+%Run 1 + Run 2 MC samples is shown in Table \ref{tab:WTFV}. 
+%Note that the events with no associated truth vertex  
+%were added to the volume with the largest error contribution, as a 
+%conservative approach.
+%The total percentage of Out-of-FV is found to be $\sim 2.8\%$, 
+%where most of the contribution 
+%is from the CECal region inside of the \p0d active material.
+
+The current method to estimate the Out-of-Fiducial Volume (Out-of-FV) 
+is base on the position of interactions as identified 
+from the truth vertex information in the MC.\\
+
+Our approach has 3 steps.
+In the first step we use the MC to define different regions 
+and the amount of Out-of-FV background associated to each.
+At the second step we utilize those regions Data to MC ratios 
+to estimate the amount of background events in Data.
+At the next step we subtract the estimated Out-of-FV events 
+from both Data and MC and extract a new Data to MC ratio. 
+In the last step we use the difference 
+between the new ratio and the original one to extract 
+that region Out-of-FV systematic error. \\
+
+An investigation of the MC Out-of-FV samples found that the main 
+source of backgrounds are interactions that occur in the \p0d CECal, 
+which have backwards going tracks, that were reconstructed in the 
+Water-Target (WT) FV. As a result 
+we defined for this systematic study three volumes 
+outside the \p0d WT \cite{tn73}. This includes 
+the \p0d active volume (X or Y coordinate within $\pm1200$ mm, 
+$-3400$ mm $< $Z$ < -930$ mm), which is divided into two regions, 
+the CECal ($-1266$  mm $<$ Z) and the rest of the active volume.
+The third volume is 
+the region outside of the \p0d active volume. 
+The last volume includes both the surrounding UK \p0d ECal and the SMRD.\\
+
+The fraction of events in the different volumes for the combined 
+MC samples of Water-in and Water-out periods 
+are shown in Tables \ref{tab:WTFVWaterIn} 
+and \ref{tab:WTFVWaterOut} respectively. 
+Note that the events with no associated truth vertex  
+were added to the volume with the largest error contribution, as a 
+conservative approach.
+The total percentage of Out-of-FV is found to be $\sim 2.8\%$, 
+where most of the contribution 
+is from the CECal region inside of the \p0d active material.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcr}
+\toprule
+Volume region & & Percent \\
+\cline{1-1}\cline{3-3} 
+WT Fiducial & &$96.76\%$ \\
+\p0d Active: CECal (+ no Truth Vertex) & &$1.97\%$ \\
+\p0d Active: not in CECal & &$1.01\%$ \\
+Outside \p0d Active (\p0d ECal + SMRD) & & $0.26\%$ \\
+\bottomrule
+\end{tabular} 
+\caption{The Run 1 + Run 2 + Run 4, Water-in period samples truth vertex 
+distributions for different volume regions. 
+Please note that the values in the table 
+are event averaged between the run periods, the actual 
+error is calculated for each run period and average 
+at the end of the procedure.}
+\label{tab:WTFVWaterin} 
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcr}
+\toprule
+Volume region & & Percent \\
+\cline{1-1}\cline{3-3} 
+WT Fiducial & &$96.22\%$ \\
+\p0d Active: CECal (+ no Truth Vertex) & &$2.30\%$ \\
+\p0d Active: not in CECal & &$1.12\%$ \\
+Outside \p0d Active (\p0d ECal + SMRD) & & $0.36\%$ \\
+\bottomrule
+\end{tabular} 
+\caption{The Run 2 + Run 3 + Run 4, Water-out period samples truth vertex 
+distributions for different volume regions. 
+Please note that the values in the table 
+are event averaged between the run periods, the actual 
+error is calculated for each run period and average 
+at the end of the procedure.}
+\label{tab:WTFVWaterOut} 
+\end{table}
+
+%To calculate the Data-to-MC systematic error for the outer volume 
+%we used the SMRD CC inclusive Data-to-MC ratio of $1.085$ \cite{tn88} 
+%and the estimated MC background of that volume (see Table \ref{tab:WTFV}). 
+%Then one can find and subtract the number of events 
+%in both Data and MC. Later a Data-to-MC can we recalculated. 
+%This recalculated ratio is used to estimate the systematic error for 
+%that volume which yielded the value of $0.00007$.  \\
+%
+%To be able to repeat this procedure with the CECal backgrounds 
+%we have calculated the CC inclusive Data-to-MC ration for the CECal volume. 
+%This calculation followed the same analysis procedure as 
+%was done for the WT (see Section \ref{sec:SelectionFlow})
+%where we changed the FV dependence in Z to be in the CECal 
+%(i.e. X and Y boundaries are set to the same values as the \p0d WT\cite{tn73}, 
+%while the Z was taken to be between $-1266$ mm to $-1010$ mm). 
+%The yielded Data-to-MC CC inclusive ratios were 
+%$0.899\pm0.027$ and $0.902\pm0.018$ for Run 1 and Run 2 respectively.
+%With the use of these ratios and the estimated CECal backgrounds 
+%(see Table \ref{tab:WTFV}) 
+%we have yielded the systematic error of $-0.00168$. Note 
+%that the errors were calculated for each run period and average 
+%by the number of Data events to extract the final value.\\
+%
+%The background events in the third volume (\p0d Active: not in CECal) 
+%are distributed around the 
+%other FV boundaries (except of the one interfacing the CECal). 
+%As a result the small contribution of these events is taken into account 
+%by the FV systematics.\\
+%
+%The estimate the total Out-of-FV systematic we included both the 
+%CECal and the outer (\p0d ECal + SMRD) volumes which yields 
+%the error value of $\pm0.00168$.
+
+To calculate the Data-to-MC systematic error for the outer volume 
+we used the SMRD CC inclusive Data-to-MC ratio of $1.085$ \cite{tn88} 
+and the estimated MC background of that volume 
+(see Tables \ref{tab:WTFVWaterIn} and \ref{tab:WTFVWaterOut} respectively). 
+The errors for the 'Outside of the \p0d active volume' 
+was found to be $+0.00050$ and $+0.00098$ 
+for the 'Water-in' and 'Water-out' periods respectively.\\
+
+To be able to repeat this procedure with the CECal backgrounds 
+we had to calculate the CC inclusive Data-to-MC ratio for that volume. 
+This calculation followed the same analysis procedure as 
+was done for the WT (see Section \ref{sec:SelectionFlow})
+where we changed the FV dependence in Z to be in the CECal 
+(i.e. X and Y boundaries are set to the same values as the \p0d WT\cite{tn73}, 
+while the Z was taken to be between $-1266$ mm to $-1010$ mm). 
+The yielded and utilized Data-to-MC CC inclusive ratios were 
+respectively, $0.880\pm0.026$ and $0.915\pm0.023$ 
+for Run 1 and Run 2 Water-in periods, 
+and $0.859\pm0.024$ and $0.854\pm0.012$ 
+for Run 2 and Run 3 Water-out periods respectively.
+With the use of these ratios and the estimated CECal backgrounds 
+(see Tables \ref{tab:WTFVWaterIn} and \ref{tab:WTFVWaterOut}) 
+we have yielded the CECal region systematic errors 
+of $-0.00359$ and $-0.00074$ for the 'Water-in' and 'Water-out' periods 
+respectively.
+Note that the combined run periods systematic error 
+was calculated first for each run period and then average 
+by the number of Data events to extract the above value.\\
+
+The background events in the second volume (\p0d Active: not in CECal) 
+are distributed around the 
+other FV boundaries (except of the one interfacing the CECal). 
+As a result these events contribution is taken into account 
+by the FV systematics.\\
+
+The total estimate Out-of-FV systematic includes both the 
+CECal and the outer (UK \p0d ECal + SMRD) volumes which yielded 
+the error values of $\pm0.00062$ and $\pm0.00123$ 
+for the 'Water-in' and 'Water-out' periods respectively.
+
+\subsubsection{Sand Muon interaction}
+An additional Out-of-FV backgrounds source are sand muon interactions 
+which occur from the surrounding pit and soil area.
+To account for these interactions, we utilized 
+the Production 4 `Sand interactions' MC sample 
+which was equivalent to an exposure of $\sim7\times 10^{19}$ POT. 
+Our analysis selection procedure identified 3 events from 
+the MC `Sand interactions'. 
+After normalizing by Data POT, the estimated background 
+contamination from `Sand interactions' becomes 3.12 events. 
+Since this contamination is very small, 
+its background contribution to this analysis 
+is negligible and will not be included in the Out-of-FV systematic evaluation.
+
+%& & data & & MC & & data & & MC\\
+%\cline{3-3}\cline{5-5} \cline{7-7} \cline{9-9}
+%Rate of SMRD veto events & & 3.92\% & &2.77\% & & 3.82\% & & 2.29\% \\
+%\hline 
+% \cline{3-3}\cline{5-5} 
+% Rte of out of FV events & & 3.54\% & & 2.50\% & & 4.37\% & & 2.62\% \\
+% \hine
+% Outof-FV fractional error & & \multicolumn{3}{c}{-1.06\%} & & \multicolumn{3}{c}{-1.76\%} \\
+% \botomrule
+% \end{abular} 
+% \captin{Out of FV background rates in both data and MC samples  
+%   for eac of the runs.}
+% \label{taboutFVBackground}
+% \end{table}%The SMRD ISO track veto was applied to both data and MC samples of each run. 
+% These taggedresults 
+% are summarize in Table~\ref{tab:outFVBackground}. 
+% The ratio of te SMRD vetoed events for the data sample of Run 1 (Run 2) 
+
+%To estimate our Out-of-Fiducial Volume (FV) background systematics we have 
+%adopted a veto approach where we applied to our \p0d CC inclusive 
+%samples a set of vetos to study their exposure 
+%to activity in the surrounding sub-detectors or sub-regions. 
+%The vetos used for these studies 
+%were the SMRD ISO tracks veto and the \p0d outer envelope veto.
+%The idea is to tag 
+%from the selected CC inclusive events 
+%hose which have   
+%thse events that have 
+% actvity in an outer region of the detector. 
+%These events could 
+%come from interactions outside of our FV that reconstruct inside the FV, causing a high momentum 
+%negative track to be falsely selected as a signal event. \\
+
+%The SMRD ISO track veto requires the presence of at least one 
+%SMRD ISO track in the same time bunch window as a selected 
+%\p0d CC inclusive event. 
+%The \p0d outer envelope veto required the  presence of any track 
+%that begins in the \p0d outer envelope region 
+%in the same time bunch window as a selected 
+%\p0d CC inclusive event. The \p0d outer envelope region is defined 
+%as the whole \p0d volume, excluding our selecution FV plus a 3$\sigma$ buffer,
+
+%i.e. $\pm3\sigma$ in the X/Y directions and $\pm$ one \p0dule in the 
+%Z direction. The buffer volume was added to avoid double counting 
+%due to vertex resolution. \\ 
+%
+%The \p0d outer envelope veto did not tag any of the CC inclusive events 
+%in either Run 1 or Run 2. This led us to assign an 
+%of the Out-of-FV background to come from the SMRD.
+%\begin{table}[h]
+%\centering
+%\begin{tabular}{ccccccccc}
+%%\hline
+%\toprule
+% & & \multicolumn{3}{c}{Run 1} & & \multicolumn{3}{c}{Run 2}\\
+%\cline{3-5} \cline{7-9}
+%   & & data & & MC & & data & & MC\\
+%\cline{3-3}\cline{5-5} \cline{7-7} \cline{9-9}
+%Rate of SMRD veto events & & 3.92\% & &2.77\% & & 3.82\% & & 2.29\% \\
+%\hline 
+%%\cline{3-3}\cline{5-5} 
+%Rate of out of FV events & & 3.54\% & & 2.50\% & & 4.37\% & & 2.62\% \\
+%\hline
+%Out-of-FV fractional error & & \multicolumn{3}{c}{-1.06\%} & & \multicolumn{3}{c}{-1.76\%} \\
+%\bottomrule
+%\end{tabular} 
+%\caption{Out of FV background rates in both data and MC samples  
+%for each of the runs.}
+%\label{tab:outFVBackground}
+%\end{table}
+%The SMRD ISO track veto was applied to both data and MC samples of each run. 
+%These tagged results 
+%are summarized in Table~\ref{tab:outFVBackground}. 
+%The ratio of the SMRD vetoed events for the data sample of Run 1 (Run 2) 
+%was found to be 3.92\% (3.82\%) which was higher than, 2.77\% (2.29\%), 
+%the ratio found for the MC sample. \\
+%
+%The estimation of the systematic errors due to Out-of-FV background 
+%was done in two steps.
+%In the first step we used the above 
+%data and MC veto ratios and the percentage of 
+%out of FV events in MC to evaluate the percentage of 
+%out of FV events in data. 
+%This step yielded the values of 
+%3.54\% and 4.37\% for Run 1 and Run 2 respectively 
+%(see also Table \ref{tab:outFVBackground}). 
+%In the second step we used 
+%the conservative approach 
+%and 
+%subtracted the out of FV events from the total ones 
+%for both data and MC and examined the data to MC ratios to 
+%extract the fractional systematic errors of  
+%1.06\% for Run 1 and 1.76\% for Run 2.

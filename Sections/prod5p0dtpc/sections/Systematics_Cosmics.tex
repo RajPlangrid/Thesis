@@ -1,0 +1,89 @@
+\subsection{Cosmics}
+\label{sec:Systematics_Cosmics}
+
+To estimate the cosmic contamination of our data samples 
+we have defined the time period before the first bunch in each spill 
+as a sideband sample, 
+for each T2K run. \\
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccccc}
+%\hline
+\toprule
+   & & Run 1& & Run 2\\
+%\hline
+\cline{3-3}\cline{5-5} 
+Cosmic candidate tracks& & 2 & & 0 \\
+\hline 
+%\cline{3-3}\cline{5-5} 
+Total cosmic scanned time & & 2.429$\times 10^9$ ns & & 2.811$\times 10^9$ ns \\
+\hline 
+%Cosmic rate& &8.233$\cdot 10^{-10}$ track/ns& &3.557$\cdot 10^{-10}$ tracks/ns \\
+%\hline 
+%\cline{3-3}\cline{5-5} 
+Total analysis time & & 2.159$\times 10^9$ ns & & 3.331$\times 10^9$ ns \\
+\hline 
+%\cline{3-3}\cline{5-5} 
+Expected cosmic contamination & & 2 tracks & & 0 tracks \\
+\bottomrule
+\end{tabular} 
+\caption{Cosmic contamination rates for the two run periods.}
+\label{tab:CosmicsStudy}
+\end{table}
+
+These sideband samples were used to scan for tracks that would 
+pass all of our selection cuts. 
+The number of tracks found \footnote{In case no tracks were found, 
+an upper limit of one track was used.} in each run is documented 
+in Table \ref{tab:CosmicsStudy}. 
+This number was then divided by the 'Total cosmic scanned time', 
+i.e. number of spills $\times$ time period before first bunch in ns, 
+to extract the rate of contaminated tracks per time unit for each run. 
+To find the 'Expected cosmic contamination' number in each run, 
+we multiplied the above rate by the 'Total analysis time' 
+(which is the number of spills times number of bunches 
+in ns). 
+The results of these multiplications are rounded up 
+to evaluate the number of contaminated cosmic tracks in our 
+selected samples. 
+Table \ref{tab:CosmicSystematics} 
+summarizes all the above findings and calculations. \\
+
+We adopt a conservative approach which assumes that when 
+a contaminated track is
+present in a bunch it is tagged as the muon candidate. 
+We then recalculate the Data/MC ratios without these tracks and extract 
+a systematic upper limit for this contamination source.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccccc}
+%\hline
+\toprule
+   & & Run 1& & Run 2\\
+\cline{3-3}\cline{5-5} 
+%\cline{3-3}\cline{5-5} 
+Cosmic systematics & & $-$0.00031 & & 0 \\
+%\hline
+\bottomrule
+\end{tabular} 
+\caption{Cosmic systematic values for the two run periods.}
+\label{tab:CosmicSystematics}
+\end{table}
+
+We note that the study in this section has been completed with the use 
+of tracks reconstructed by the Global Reconstruction package. 
+The CC inclusive selection outlined in Section \ref{sec:InclusiveAnalysis} 
+was performed with a Tracker to \p0d matching algorithm. 
+Though these two reconstruction methods are not the exact same, 
+they are very similar. In addition, from the efficiency study performed 
+using cosmics (Sec. \ref{sec:CosmicsEfficiency})  
+we find that the new matching algorithm maintains a high efficiency 
+of reconstructing cosmics and other lengthy tracks. 
+Since the overall contribution of the cosmics contamination is negligible, 
+we do not expect that switching to the Tracker to \p0d matching method 
+will change this systematic uncertainty. 
+We adopted the conservative approach and estimate our cosmic 
+systematic contribution to be $\pm0.00031$.
+

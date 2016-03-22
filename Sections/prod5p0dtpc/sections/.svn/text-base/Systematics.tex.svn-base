@@ -1,0 +1,18 @@
+\section{Evaluation of Systematic Errors in the CC Inclusive Selection}
+\label{sec:Systematics}
+
+We investigate several sources of systematic error in our analysis. These are:
+
+\begin{enumerate}
+\item P0D Tracking and Matching Efficiency
+\item Hit Reconstruction Efficiency
+\item Fiducial Mass
+\item Track Timing
+\item Fiducial Volume
+\item Cosmics
+\item Event Pile-up per Bunch
+\item Out of \p0d Fiducial Volume Background
+\item TPC1 track reconstruction efficiency
+\item Charge Mis-ID
+\\
+\end{enumerate}
