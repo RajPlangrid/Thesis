@@ -1,3 +1,3 @@
 # Figures used in Thesis
 
-![testing tag](beam1.png "TEST TITLE")
+![Beam Fig](beam1.PNG)
