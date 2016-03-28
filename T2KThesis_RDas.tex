@@ -13,7 +13,10 @@
 \usepackage{braket}
 \usepackage{hyperref}
 \usepackage{afterpage}
+\usepackage{fancyhdr}
 \usepackage[defaultlines=3,all]{nowidow}
+\usepackage[absolute]{textpos}
+\usepackage{tocloft}
 
 \usepackage{times}
 
@@ -28,8 +31,12 @@
 \usepackage{cancel}
 \usepackage{booktabs}
 
-\titleformat{\section}{\singlespacing\normalfont\Large\bfseries}{\thesection}{0.5em}{\centering\MakeUppercase}[\vspace{1ex}]
-\titlespacing*{\section}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+%\titleformat{\section}{\singlespacing\normalfont\Large\bfseries}{\thesection}{0.5em}{\centering\MakeUppercase}[\vspace{1ex}]
+\titlespacing\section{0pt}{-0.3in}{0.4in}
+\titleformat{\section}{\singlespacing\Large\bfseries}{\thesection}{0.5em}{\centering\MakeUppercase}
+%\titlespacing*{\section}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\setlength{\cftsubsecnumwidth}{3em}
+\setlength{\cftsubsubsecnumwidth}{3em}
 
 \begin{document}
 
@@ -38,8 +45,10 @@
 \input{/Users/rdas/Thesis/Sections/preliminaries.tex}
 
 \newpage
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
 \tableofcontents
-\setcounter{tocdepth}{3}
 
 \clearpage
 

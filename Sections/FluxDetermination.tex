@@ -5,18 +5,15 @@ Historically, uncertainties in the neutrino flux have been the largest source of
 
 In T2K, a primary beam of 30~GeV protons collides with a carbon target to produce secondary pions and kaons. These particles then decay into the proper neutrino flavors, yielding a flux of primarily $\nu_\mu$ at ND280. There are several steps involved in simulating this process. First, a common package called FLUKA is used to simulate the proton-carbon interactions and generate the secondary pion and kaon 4-vectors. Then JNuBeam, a GEANT based simulation package, is used to track the particles as they exit the thick carbon target. These secondaries are tracked to the decay volume downstream of the target where JNuBeam simulates neutrino production via decay. The neutrinos are the tracked to the ND280 complex and the absolute flux is calculated. Figure \ref{fig:fluxparent} shows a breakdown of the parent secondary particle responsible for the  $\nu_\mu$, anti-$\nu_\mu$, $\nu_e$ and anti-$\nu_e$ fluxes at ND280. We are primarily interested in the $\nu_\mu$ flux, though the other neutrino fluxes do slightly inflate our absolute flux error on the cross section measurement.
 
-\begin{landscape}
+Several methods were used to tune the simulation to actual data. The most valuable tuning data comes from the NA61/SHINE collaboration, a T2K dedicated experiment. Data collected from 2007 to 2010 from the NA61/SHINE experiment is used. NA61/SHINE ran a 30~GeV proton beam on a graphite target to study proton-carbon interactions in the same energy regime as T2K. Both a thin target and a thick target were used. The thin target had a density of 1.84~g/cm$^3$ and was 2~cm thick while the thick target was a T2K target replica with a density of  1.83~g/cm$^3$, length of 90~cm and diameter of 2.6~cm. The simulation was compared to the collected data and only a few physics parameters were tuned to account for discrepancies. The tuned parameters are the 
+secondary and tertiary pion production rates, the secondary and tertiary kaon production rates and the pion/kaon interaction rates.
+
 \begin{figure}[h]
 \centering
-$\vcenter{\hbox{\includegraphics[height=5in]{Figures/flux/fluxparent.PNG}}}$
+\includegraphics[width=6in]{Figures/flux/fluxparent.PNG}
 \caption{A breakdown of the parent particle contribution to the production of $\nu_\mu$, anti-$\nu_\mu$, $\nu_e$ and anti-$\nu_e$ fluxes at ND280.} 
 \label{fig:fluxparent}
 \end{figure}
-\end{landscape}
-
-
-Several methods were used to tune the simulation to actual data. The most valuable tuning data comes from the NA61/SHINE collaboration, a T2K dedicated experiment. Data collected from 2007 to 2010 from the NA61/SHINE experiment is used. NA61/SHINE ran a 30~GeV proton beam on a graphite target to study proton-carbon interactions in the same energy regime as T2K. Both a thin target and a thick target were used. The thin target had a density of 1.84~g/cm$^3$ and was 2~cm thick while the thick target was a T2K target replica with a density of  1.83~g/cm$^3$, length of 90~cm and diameter of 2.6~cm. The simulation was compared to the collected data and only a few physics parameters were tuned to account for discrepancies. The tuned parameters are the 
-secondary and tertiary pion production rates, the secondary and tertiary kaon production rates and the pion/kaon interaction rates.
 
 The secondary pion production rates are externally tuned to the NA61 thin target data. A ratio is calculated for each flux energy bin between the thin target pion multiplicity and the FLUKA simulated multiplicity. Tertiary pion production rates are similarly tuned by using NA61 data after scaling the data to lower nucleon energies. To tune the particle interaction rate, T2K uses results from non-dedicated experiments measuring hadronic cross sections on carbon and aluminium within the relevant energy regimes. The hadronic interaction simulation software GCALOR is used to calculate the hadronic interaction rate and any discrepancy with the selected external literature is corrected by a simple weighting scheme. The study found that the production rates within the target agreed well with pre-existing data, but interactions outside the graphite target required some tuning. The tuning scheme uses the suggested weighting scheme calulated as a function of distance traveled by different particle through different materials. Like the pion production tuning, the final result once the weights are applied are ratios of tuned flux to nominal flux in bins of energy. 
 

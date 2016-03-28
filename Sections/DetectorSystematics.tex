@@ -61,14 +61,11 @@ The number of tracks passing the numerator cuts divided by the number passing th
 The $\Delta Y$ distribution does not agree very well and causes some disagreement in the $\Delta R$ distribution as well. This discrepancy has been isolated to a difference between forward going and backwards going cosmics tracks as determined by the Tracker reconstruction. Figure \ref{fig:dY} shows the $\Delta Y$ residuals separated by forward and backwards going tracks for FGD cosmics in data and MC. Note that in MC, the two different directions have a small shift in the central value of the residual. However, in data, the shift is much greater. We have fit gaussians to all of the residuals and the results are shown in Table \ref{tab:FitdY}. The root cause of this effect is a difference in the geometry used for reconstruction and the geometry of the `as built' detector. Finally, note that since the $\Delta R$ agreement between data and MC for the Cosmics sample is actually worse than the beam events, the evaluated uncertainty should be conservative. 
 Similarly, though the timing distribution does not agree as well as the others, the timing cut is large enough to account for the overall shift. 
 
-\clearpage
-\afterpage{
-\begin{landscape}
 \begin{figure}[h]
 \centering
-\includegraphics[width=3.25in]{Figures/Systematics/MatchingEfficiency/dRcosmics.eps}
-\includegraphics[width=3.25in]{Figures/Systematics/MatchingEfficiency/dXcosmics.eps}
-\includegraphics[width=3.25in]{Figures/Systematics/MatchingEfficiency/dYcosmics.eps} 
+\includegraphics[width=5in]{Figures/Systematics/MatchingEfficiency/dRcosmics.eps}
+\includegraphics[width=3in]{Figures/Systematics/MatchingEfficiency/dXcosmics.eps}
+\includegraphics[width=3in]{Figures/Systematics/MatchingEfficiency/dYcosmics.eps} 
 \caption{
 Matching Parameters $\Delta$ R, $\Delta$ X, and $\Delta$ Y for cosmics. The matching cut is applied only on $\Delta$ R. Black dots with error bars denote data while the orange fill is MC. We note that the difference in shape in $\Delta$ R distributions is due to a shape difference in $\Delta$ Y between data and MC.
 }
@@ -77,13 +74,11 @@ Matching Parameters $\Delta$ R, $\Delta$ X, and $\Delta$ Y for cosmics. The matc
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=3.25in]{Figures/Systematics/MatchingEfficiency/dScosmics.eps}
-\includegraphics[width=3.25in]{Figures/Systematics/MatchingEfficiency/dTcosmics.eps}
+\includegraphics[width=3in]{Figures/Systematics/MatchingEfficiency/dScosmics.eps}
+\includegraphics[width=3in]{Figures/Systematics/MatchingEfficiency/dTcosmics.eps}
 \caption{Cosmics matching efficiency parameters \(\sin \theta\) and \(\Delta T\). The difference in \(\Delta T\) is not understood, but the cut is placed wide enough to be insensitive to the overall shift.}
 \label{fig:eff_dSdT}
 \end{figure}
-\end{landscape}
-}
 
 \begin{figure}[h]
 \centering
@@ -847,6 +842,8 @@ Total Det. Sys. &  - & - & 0.0202  \\
 \end{table}
 
 The total fractional detector systematic uncertainty on the absolute water cross section is $2.02\%$. As expected, it is the smallest uncertainty when compared to flux and cross section model systematics. The small size of the detector systematic is possible due to the subtraction measurement as the correlations between water-in and water-out allow us to reduce overall error.
+
+\clearpage
 
 \subsection{Statistical Uncertainty}
 
