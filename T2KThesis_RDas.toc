@@ -1,71 +1,73 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}Neutrino Oscillations and Interactions}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Neutrino Mixing}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Neutrino Interactions}{9}{subsection.2.2}
-\contentsline {subsubsection}{V-A Nature of the Weak Current}{11}{figure.1}
-\contentsline {subsubsection}{Charge-Current Quasi-Elastic Cross Section}{12}{equation.2.20}
-\contentsline {subsubsection}{Charged-Current Resonant Pion Production}{17}{equation.2.35}
-\contentsline {subsubsection}{Neutrino Deep Inelastic Scattering}{22}{equation.2.59}
-\contentsline {subsubsection}{Nuclear Effects}{24}{equation.2.67}
-\contentsline {section}{\numberline {3}T2K Experiment}{26}{section.3}
-\contentsline {subsection}{\numberline {3.1}Experimental Setup}{26}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}$\nu _\mu $ Beam at JPARC}{27}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Super-Kamiokande Far Detector}{32}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}ND280 Near Detector Complex}{34}{subsection.3.4}
-\contentsline {subsubsection}{$\pi ^0$ Detector (P0D)}{37}{figure.10}
-\contentsline {subsubsection}{Tracker (TPCs and FGDs)}{44}{figure.16}
-\contentsline {subsubsection}{SMRD and Magnet}{46}{figure.17}
-\contentsline {subsubsection}{Electromagnetic Calorimeters}{49}{figure.20}
-\contentsline {subsubsection}{INGRID}{50}{figure.20}
-\contentsline {section}{\numberline {4}Determination of $\nu _\mu $ Flux and Uncertainty at the Near Detector}{53}{section.4}
-\contentsline {section}{\numberline {5}Neutrino Interaction Simulation}{62}{section.5}
-\contentsline {subsection}{\numberline {5.1}Low Energy Quasi-Elastic Scattering}{63}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Low Energy Charged-Current Resonance Production}{65}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}High Energy QE/1$\pi $, Pion-less Delta Decay and Other Processes}{68}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Deep Inelastic Scattering}{70}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Final State Interactions}{71}{subsection.5.5}
-\contentsline {section}{\numberline {6}Event Reconstruction}{74}{section.6}
-\contentsline {subsection}{\numberline {6.1}Common Reconstruction Tools}{75}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}TPC Reconstruction}{77}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}FGD Reconstruction}{80}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Tracker Reconstruction}{81}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}P0D Reconstruction}{82}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Track Matching Algorithm}{85}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Track Momentum Reconstruction}{89}{subsection.6.7}
-\contentsline {section}{\numberline {7}Fiducial Mass and Volume}{93}{section.7}
-\contentsline {section}{\numberline {8}Selection of Charged Current Inclusive Events}{99}{section.8}
-\contentsline {subsection}{\numberline {8.1}Data and Monte Carlo Samples}{99}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Signal Definition}{102}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Event Selection Procedure}{103}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Event Selection Results}{106}{subsection.8.4}
-\contentsline {section}{\numberline {9}Calculating the Water Cross Section}{115}{section.9}
-\contentsline {subsection}{\numberline {9.1}Derivation of Statistical Subtraction Formula}{115}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Evaluating the Efficiency and Background}{117}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Calculating the Flux Normalization}{123}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Cross Section Value}{124}{subsection.9.4}
-\contentsline {section}{\numberline {10}Systematic Uncertainties in the Flux Prediction and Cross Section Model}{127}{section.10}
-\contentsline {subsection}{\numberline {10.1}Flux Prediction Systematic Uncertainty}{127}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Cross Section Model Systematic Uncertainty}{131}{subsection.10.2}
-\contentsline {section}{\numberline {11}Detector Systematic Effects}{139}{section.11}
-\contentsline {subsection}{\numberline {11.1}Track Matching Efficiency Uncertainty}{140}{subsection.11.1}
-\contentsline {subsubsection}{Cosmics Sample}{142}{subsection.11.1}
-\contentsline {subsubsection}{Reconstruction Failures in Beam Events}{144}{figure.67}
-\contentsline {paragraph}{Results of Matching Efficiency Systematic Studies}{147}{table.14}
-\contentsline {subsection}{\numberline {11.2}Hit Reconstruction Efficiency}{147}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Neutral Back Scattering}{149}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Fiducial Volume Systematic}{152}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Sand Muon Interference and Contamination}{154}{subsection.11.5}
-\contentsline {subsubsection}{Sand Muon Contamination}{155}{subsection.11.5}
-\contentsline {subsubsection}{Sand Muon Interference}{156}{table.21}
-\contentsline {subsection}{\numberline {11.6}Out of Fiducial Volume Systematic}{159}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}Event Pile-up Systematic}{161}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}Track Timing Systematic}{163}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}Cosmic Background Systematic}{163}{subsection.11.9}
-\contentsline {subsection}{\numberline {11.10}TPC1 Tracking Efficiency}{164}{subsection.11.10}
-\contentsline {subsection}{\numberline {11.11}Charge Mis-ID}{166}{subsection.11.11}
-\contentsline {subsection}{\numberline {11.12}Summary of Detector Systematic Uncertainties}{170}{subsection.11.12}
-\contentsline {section}{\numberline {12}Detector Systematic Corrections and Uncertainties}{179}{section.12}
-\contentsline {subsection}{\numberline {12.1}Detector Systematic Corrections}{179}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Detector Systematic Uncertainties}{183}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}Statistical Uncertainty}{190}{subsection.12.3}
-\contentsline {section}{\numberline {13}Results and Discussion}{191}{section.13}
+\contentsline {section}{Abstract}{ii}
+\contentsline {section}{Acknowledgments}{iii}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Neutrino Oscillations and Interactions}{4}
+\contentsline {subsection}{\numberline {2.1}Neutrino Mixing}{4}
+\contentsline {subsection}{\numberline {2.2}Neutrino Interactions}{9}
+\contentsline {subsubsection}{V-A Nature of the Weak Current}{11}
+\contentsline {subsubsection}{Charge-Current Quasi-Elastic Cross Section}{12}
+\contentsline {subsubsection}{Charged-Current Resonant Pion Production}{17}
+\contentsline {subsubsection}{Neutrino Deep Inelastic Scattering}{22}
+\contentsline {subsubsection}{Nuclear Effects}{24}
+\contentsline {section}{\numberline {3}T2K Experiment}{26}
+\contentsline {subsection}{\numberline {3.1}Experimental Setup}{26}
+\contentsline {subsection}{\numberline {3.2}$\nu _\mu $ Beam at JPARC}{27}
+\contentsline {subsection}{\numberline {3.3}Super-Kamiokande Far Detector}{32}
+\contentsline {subsection}{\numberline {3.4}ND280 Near Detector Complex}{34}
+\contentsline {subsubsection}{$\pi ^0$ Detector (P0D)}{37}
+\contentsline {subsubsection}{Tracker (TPCs and FGDs)}{44}
+\contentsline {subsubsection}{SMRD and Magnet}{45}
+\contentsline {subsubsection}{Electromagnetic Calorimeters}{49}
+\contentsline {subsubsection}{INGRID}{49}
+\contentsline {section}{\numberline {4}Determination of $\nu _\mu $ Flux and Uncertainty\nobreakspace {}at\nobreakspace {}the Near Detector}{52}
+\contentsline {section}{\numberline {5}Neutrino Interaction Simulation}{61}
+\contentsline {subsection}{\numberline {5.1}Low Energy Quasi-Elastic Scattering}{62}
+\contentsline {subsection}{\numberline {5.2}Low Energy Charged-Current Resonance Production}{64}
+\contentsline {subsection}{\numberline {5.3}High Energy QE/1$\pi $, Pion-less Delta Decay and Other Processes}{67}
+\contentsline {subsection}{\numberline {5.4}Deep Inelastic Scattering}{69}
+\contentsline {subsection}{\numberline {5.5}Final State Interactions}{70}
+\contentsline {section}{\numberline {6}Event Reconstruction}{73}
+\contentsline {subsection}{\numberline {6.1}Common Reconstruction Tools}{74}
+\contentsline {subsection}{\numberline {6.2}TPC Reconstruction}{76}
+\contentsline {subsection}{\numberline {6.3}FGD Reconstruction}{79}
+\contentsline {subsection}{\numberline {6.4}Tracker Reconstruction}{80}
+\contentsline {subsection}{\numberline {6.5}P0D Reconstruction}{81}
+\contentsline {subsection}{\numberline {6.6}Track Matching Algorithm}{84}
+\contentsline {subsection}{\numberline {6.7}Track Momentum Reconstruction}{88}
+\contentsline {section}{\numberline {7}Fiducial Mass and Volume}{92}
+\contentsline {section}{\numberline {8}Selection of Charged Current Inclusive Events}{98}
+\contentsline {subsection}{\numberline {8.1}Data and Monte Carlo Samples}{98}
+\contentsline {subsection}{\numberline {8.2}Signal Definition}{101}
+\contentsline {subsection}{\numberline {8.3}Event Selection Procedure}{102}
+\contentsline {subsection}{\numberline {8.4}Event Selection Results}{105}
+\contentsline {section}{\numberline {9}Calculating the Water Cross Section}{114}
+\contentsline {subsection}{\numberline {9.1}Derivation of Statistical Subtraction Formula}{114}
+\contentsline {subsection}{\numberline {9.2}Evaluating the Efficiency and Background}{116}
+\contentsline {subsection}{\numberline {9.3}Calculating the Flux Normalization}{121}
+\contentsline {subsection}{\numberline {9.4}Cross Section Value}{122}
+\contentsline {section}{\numberline {10}Systematic Uncertainties in the Flux Prediction and Cross Section Model}{125}
+\contentsline {subsection}{\numberline {10.1}Flux Prediction Systematic Uncertainty}{125}
+\contentsline {subsection}{\numberline {10.2}Cross Section Model Systematic Uncertainty}{129}
+\contentsline {section}{\numberline {11}Detector Systematic Effects}{137}
+\contentsline {subsection}{\numberline {11.1}Track Matching Efficiency Uncertainty}{138}
+\contentsline {subsubsection}{Cosmics Sample}{140}
+\contentsline {subsubsection}{Reconstruction Failures in Beam Events}{142}
+\contentsline {paragraph}{Results of Matching Efficiency Systematic Studies}{145}
+\contentsline {subsection}{\numberline {11.2}Hit Reconstruction Efficiency}{145}
+\contentsline {subsection}{\numberline {11.3}Neutral Back Scattering}{147}
+\contentsline {subsection}{\numberline {11.4}Fiducial Volume Systematic}{150}
+\contentsline {subsection}{\numberline {11.5}Sand Muon Interference and Contamination}{152}
+\contentsline {subsubsection}{Sand Muon Contamination}{153}
+\contentsline {subsubsection}{Sand Muon Interference}{154}
+\contentsline {subsection}{\numberline {11.6}Out of Fiducial Volume Systematic}{157}
+\contentsline {subsection}{\numberline {11.7}Event Pile-up Systematic}{159}
+\contentsline {subsection}{\numberline {11.8}Track Timing Systematic}{161}
+\contentsline {subsection}{\numberline {11.9}Cosmic Background Systematic}{161}
+\contentsline {subsection}{\numberline {11.10}TPC1 Tracking Efficiency}{162}
+\contentsline {subsection}{\numberline {11.11}Charge Mis-ID}{164}
+\contentsline {subsection}{\numberline {11.12}Summary of Detector Systematic Uncertainties}{168}
+\contentsline {section}{\numberline {12}Detector Systematic Corrections and Uncertainties}{177}
+\contentsline {subsection}{\numberline {12.1}Detector Systematic Corrections}{177}
+\contentsline {subsection}{\numberline {12.2}Detector Systematic Uncertainties}{181}
+\contentsline {subsection}{\numberline {12.3}Statistical Uncertainty}{187}
+\contentsline {section}{\numberline {13}Results and Discussion}{189}

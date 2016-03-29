@@ -812,6 +812,21 @@ The list of significant detector systematics, a brief comment on water-in/water-
 
 We then use the argued detector systematic correlations and the data to MC ratio systematic values to calculate the fractional systematic uncertainty on the absolute water cross section measurement for each source. The systematic sources are estimated to be uncorrelated to each other. So we add the errors in quadrature to evaluate the total uncertainty. The results are summarized in Table \ref{tab:detsys}. The fractional systematic errors from Table \ref{tab:syssum} are summarized in columns 2 and 3 for water-in and water-out. The resulting fractional error in the absolute water cross section is shown in column 4.
 
+The total fractional detector systematic uncertainty on the absolute water cross section is $2.02\%$. As expected, it is the smallest uncertainty when compared to flux and cross section model systematics. The small size of the detector systematic is possible due to the subtraction measurement as the correlations between water-in and water-out allow us to reduce overall error.
+
+% \clearpage
+
+\subsection{Statistical Uncertainty}
+
+We assume Poissonian errors on the event rates in each bin and propagate the cross section error following basic error analysis formulae. As we are only concerned with the statistical error from the number of selected events in data, we treat the target number, integrated flux terms, efficiency terms, background terms and correction factors as constants. Then Equation~\ref{eqn:nomxsecerr} yields the statistical variance on the cross section measurement and comes directly from the formula in Equation~\ref{eqn:nomxsec} for the nominal cross section:
+
+\begin{multline}
+\label{eqn:nomxsecerr}
+\delta(\sigma_w)^2 = \frac{1}{T_w^2} \left[ \frac{1}{\left(\sum\limits_r \Phi_w(r)\right)^2} \sum\limits_{r}^{1,2,4} \sum\limits_{z}^{40} \frac{N^{obs}_w(r,z)}{(C_w^{eff}*C_w^{SM}(r)*\epsilon^{MC}_w(r,z))^2} \right. \\
+	\left. +\frac{1}{\left(\sum\limits_r \Phi_a(r) \right)^2}\sum\limits_{r}^{2,3,4} \sum\limits_{z}^{40} \frac{N^{obs}_w(r,z)}{(C_a^{eff}*C_a^{SM}(r)*\epsilon^{MC}_w(r,z))^2}\right].
+\end{multline}
+We find an absolute statistical error of $1.57\times 10^{-40}$ which is 2.47\% fractionally on the cross section measurement.
+
 \begin{table}[h]
 \caption{Summary of Detector Systematic Errors for runs 1-4 and the resulting fractional error on the absolute water cross section.}
 \centering
@@ -840,19 +855,4 @@ Total Det. Sys. &  - & - & 0.0202  \\
 \end{tabular}
 \label{tab:detsys}
 \end{table}
-
-The total fractional detector systematic uncertainty on the absolute water cross section is $2.02\%$. As expected, it is the smallest uncertainty when compared to flux and cross section model systematics. The small size of the detector systematic is possible due to the subtraction measurement as the correlations between water-in and water-out allow us to reduce overall error.
-
-\clearpage
-
-\subsection{Statistical Uncertainty}
-
-We assume Poissonian errors on the event rates in each bin and propagate the cross section error following basic error analysis formulae. As we are only concerned with the statistical error from the number of selected events in data, we treat the target number, integrated flux terms, efficiency terms, background terms and correction factors as constants. Then Equation~\ref{eqn:nomxsecerr} yields the statistical variance on the cross section measurement and comes directly from the formula in Equation~\ref{eqn:nomxsec} for the nominal cross section:
-
-\begin{multline}
-\label{eqn:nomxsecerr}
-\delta(\sigma_w)^2 = \frac{1}{T_w^2} \left[ \frac{1}{\left(\sum\limits_r \Phi_w(r)\right)^2} \sum\limits_{r}^{1,2,4} \sum\limits_{z}^{40} \frac{N^{obs}_w(r,z)}{(C_w^{eff}*C_w^{SM}(r)*\epsilon^{MC}_w(r,z))^2} \right. \\
-	\left. +\frac{1}{\left(\sum\limits_r \Phi_a(r) \right)^2}\sum\limits_{r}^{2,3,4} \sum\limits_{z}^{40} \frac{N^{obs}_w(r,z)}{(C_a^{eff}*C_a^{SM}(r)*\epsilon^{MC}_w(r,z))^2}\right].
-\end{multline}
-We find an absolute statistical error of $1.57\times 10^{-40}$ which is 2.47\% fractionally on the cross section measurement.
 

@@ -9,7 +9,7 @@ T2K published the world's first indication of $\nu_e$ appearance from a $\nu_\mu
 
 The T2K experiment uses an off-axis, high intensity beam of $\nu_\mu$ at the Japan Proton Accelerator Research Complex (JPARC) located on the east coast of Japan in the town of Tokai. This beam is first observed at a near detector complex 280~m downstream (ND280) and finally at Super-Kamiokande (Super-K), a water Cherenkov detector 295~km away on the west coast of Japan. Figure \ref{fig:t2k_overview} shows a schematic of this setup.
 
-\begin{figure}[H]
+\begin{figure}[h]
 \includegraphics[width=.9\textwidth]{./Figures/t2k-schematic.jpg}
 \caption{A schematic of the T2K experiment. The path of the neutrino beam is shown as it travels from the JPARC facility to Super-Kamiokande through ND280 and 295~km of rock. \label{fig:t2k_overview}}
 \end{figure}
@@ -278,18 +278,8 @@ with a TiO$_2$ mix to reflect scintillation light and maximize light
 yield in each bar. Each bar has a hole drilled down the center
 with a 1~mm diameter wavelength-shifting (WLS) fiber threaded
 through. On one end the fiber is coated with a reflective material. On
-the other end, the WLS fiber carries scintillation light from the bar
+the other end, as seen in Figure \ref{fig:mppc2}, the WLS fiber carries scintillation light from the bar
 directly to a multi-pixel photon counter (MMPC).
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=5in]{./Figures/mppc1.png}
-\end{center}
-\caption{The Hamamatsu MPPCs used in all scintillator detectors at
-  the near detector site. The active region of the $1.3\times 1.3$~mm sensor is shown on the left and
-  the actual MPPC on the right.}
-\label{fig:mppc}
-\end{figure}
 
 \begin{figure}
 \begin{center}
@@ -298,7 +288,18 @@ directly to a multi-pixel photon counter (MMPC).
 \caption{An exploded (top) and assembled (bottom) view of the custom
   optical connectors used to pair an MPPC to the WLS fiber from a
   scintillator bar. These parts were designed and fabricated by CSU.}
-\label{fig:mppc}
+\label{fig:mppc2}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=5in]{./Figures/mppc1.png}
+\end{center}
+\caption{The Hamamatsu MPPCs used in all scintillator detectors at
+  the near detector site. The active region of the $1.3\times 1.3$~mm sensor is shown on the left and
+  the actual MPPC on the right.}
+\label{fig:mppc1}
 \end{figure}
 
 There are 10,400 indivdually tested MPPCs installed in the entirety
@@ -317,7 +318,7 @@ scintillator detector in ND280.
 \label{fig:pedestal}
 \end{figure}
 
-An MPPC has a 1.3~mm by 1.3~mm active detection region of 667 50~micron
+An MPPC, shown in Figure \ref{fig:mppc1}, has a 1.3~mm by 1.3~mm active detection region of 667 50~micron
 pixels. Each pixel runs in Geiger mode and outputs a clean pulse when
 an incident photon triggers a cascade. For low light intensities as
 expected from neutrino interactions, the probability of multiple

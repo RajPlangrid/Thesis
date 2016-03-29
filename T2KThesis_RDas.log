@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 MAR 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 MAR 2016 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,115 +190,9 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/braket/braket.sty)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen129
-\Hy@linkcounter=\count114
-\Hy@pagecounter=\count115
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count116
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count117
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen130
-\Fld@menulength=\count118
-\Field@Width=\dimen131
-\Fld@charsize=\dimen132
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count119
-\c@Item=\count120
-\c@Hfootnote=\count121
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count122
-\c@bookmark@seq@number=\count123
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip48
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
@@ -307,20 +201,38 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@footins=\box32
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip49
-\f@ncyO@elh=\skip50
-\f@ncyO@erh=\skip51
-\f@ncyO@olh=\skip52
-\f@ncyO@orh=\skip53
-\f@ncyO@elf=\skip54
-\f@ncyO@erf=\skip55
-\f@ncyO@olf=\skip56
-\f@ncyO@orf=\skip57
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/nowidow/nowidow.sty
 Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
 Package: nowidow 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 )
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2014/01/03 v1.7j
 
@@ -330,140 +242,149 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box33
 \TP@holdbox=\box34
-\TPHorizModule=\dimen133
-\TPVertModule=\dimen134
-\TP@margin=\dimen135
-\TP@absmargin=\dimen136
+\TPHorizModule=\dimen129
+\TPVertModule=\dimen130
+\TP@margin=\dimen131
+\TP@absmargin=\dimen132
 
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen137
-\TP@ox=\dimen138
-\TP@oy=\dimen139
+\TPboxrulesize=\dimen133
+\TP@ox=\dimen134
+\TP@oy=\dimen135
 \TP@tbargs=\toks25
-\TP@prevdepth=\dimen140
+\TP@prevdepth=\dimen136
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip58
-\cftbeforetoctitleskip=\skip59
-\cftaftertoctitleskip=\skip60
-\cftbeforepartskip=\skip61
-\cftpartnumwidth=\skip62
-\cftpartindent=\skip63
-\cftbeforesecskip=\skip64
-\cftsecindent=\skip65
-\cftsecnumwidth=\skip66
-\cftbeforesubsecskip=\skip67
-\cftsubsecindent=\skip68
-\cftsubsecnumwidth=\skip69
-\cftbeforesubsubsecskip=\skip70
-\cftsubsubsecindent=\skip71
-\cftsubsubsecnumwidth=\skip72
-\cftbeforeparaskip=\skip73
-\cftparaindent=\skip74
-\cftparanumwidth=\skip75
-\cftbeforesubparaskip=\skip76
-\cftsubparaindent=\skip77
-\cftsubparanumwidth=\skip78
-\cftbeforeloftitleskip=\skip79
-\cftafterloftitleskip=\skip80
-\cftbeforefigskip=\skip81
-\cftfigindent=\skip82
-\cftfignumwidth=\skip83
-\c@lofdepth=\count124
-\c@lotdepth=\count125
-\cftbeforelottitleskip=\skip84
-\cftafterlottitleskip=\skip85
-\cftbeforetabskip=\skip86
-\cfttabindent=\skip87
-\cfttabnumwidth=\skip88
+\cftparskip=\skip57
+\cftbeforetoctitleskip=\skip58
+\cftaftertoctitleskip=\skip59
+\cftbeforepartskip=\skip60
+\cftpartnumwidth=\skip61
+\cftpartindent=\skip62
+\cftbeforesecskip=\skip63
+\cftsecindent=\skip64
+\cftsecnumwidth=\skip65
+\cftbeforesubsecskip=\skip66
+\cftsubsecindent=\skip67
+\cftsubsecnumwidth=\skip68
+\cftbeforesubsubsecskip=\skip69
+\cftsubsubsecindent=\skip70
+\cftsubsubsecnumwidth=\skip71
+\cftbeforeparaskip=\skip72
+\cftparaindent=\skip73
+\cftparanumwidth=\skip74
+\cftbeforesubparaskip=\skip75
+\cftsubparaindent=\skip76
+\cftsubparanumwidth=\skip77
+\cftbeforeloftitleskip=\skip78
+\cftafterloftitleskip=\skip79
+\cftbeforefigskip=\skip80
+\cftfigindent=\skip81
+\cftfignumwidth=\skip82
+\c@lofdepth=\count114
+\c@lotdepth=\count115
+\cftbeforelottitleskip=\skip83
+\cftafterlottitleskip=\skip84
+\cftbeforetabskip=\skip85
+\cfttabindent=\skip86
+\cfttabnumwidth=\skip87
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen141
+\bigstrutjot=\dimen137
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box35
-\beforetitleunit=\skip89
-\aftertitleunit=\skip90
-\ttl@plus=\dimen142
-\ttl@minus=\dimen143
+\beforetitleunit=\skip88
+\aftertitleunit=\skip89
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
 \ttl@toksa=\toks26
-\titlewidth=\dimen144
-\titlewidthlast=\dimen145
-\titlewidthfirst=\dimen146
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen147
-\lightrulewidth=\dimen148
-\cmidrulewidth=\dimen149
-\belowrulesep=\dimen150
-\belowbottomsep=\dimen151
-\aboverulesep=\dimen152
-\abovetopsep=\dimen153
-\cmidrulesep=\dimen154
-\cmidrulekern=\dimen155
-\defaultaddspace=\dimen156
-\@cmidla=\count126
-\@cmidlb=\count127
-\@aboverulesep=\dimen157
-\@belowrulesep=\dimen158
-\@thisruleclass=\count128
-\@lastruleclass=\count129
-\@thisrulewidth=\dimen159
+\heavyrulewidth=\dimen143
+\lightrulewidth=\dimen144
+\cmidrulewidth=\dimen145
+\belowrulesep=\dimen146
+\belowbottomsep=\dimen147
+\aboverulesep=\dimen148
+\abovetopsep=\dimen149
+\cmidrulesep=\dimen150
+\cmidrulekern=\dimen151
+\defaultaddspace=\dimen152
+\@cmidla=\count116
+\@cmidlb=\count117
+\@aboverulesep=\dimen153
+\@belowrulesep=\dimen154
+\@thisruleclass=\count118
+\@lastruleclass=\count119
+\@thisrulewidth=\dimen155
 )
-(./T2KThesis_RDas.aux
-
-LaTeX Warning: Label `fig:mppc' multiply defined.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2011/12/15
 )
+(./T2KThesis_RDas.aux)
 \openout1 = `T2KThesis_RDas.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 41.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 69.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen160
+\scratchcounter=\count120
+\scratchdimen=\dimen156
 \scratchbox=\box36
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count121
+\nofMParguments=\count122
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen161
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen157
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks28
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -507,35 +428,16 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 41.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 41.
+LaTeX Info: Redefining \celsius on input line 69.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 69.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 41.
-Package gensymb Info: Using \Omega for \ohm on input line 41.
+LaTeX Info: Redefining \ohm on input line 69.
+Package gensymb Info: Using \Omega for \ohm on input line 69.
 
 Package gensymb Warning: Not defining \micro.
-
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 41.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count136
-)
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
-
-(./T2KThesis_RDas.out) (./T2KThesis_RDas.out)
-\@outlinefile=\write3
-\openout3 = `T2KThesis_RDas.out'.
-
 
 ABD: EveryShipout initializing macros
 (/Users/rdas/Thesis/Sections/preliminaries.tex
@@ -556,51 +458,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [2] [3])
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
- (./T2KThesis_RDas.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [4] [5])
-\tf@toc=\write4
-\openout4 = `T2KThesis_RDas.toc'.
+[2] [2] [3]) (./T2KThesis_RDas.toc [4] [5])
+\tf@toc=\write3
+\openout3 = `T2KThesis_RDas.toc'.
 
  [6]
-(/Users/rdas/Thesis/Sections/Introduction.texpdfTeX warning (ext4): destination
- with the same identifier (name{page.1}) has been already used, duplicate ignor
-ed
-<to be read again> 
-                   \relax 
-l.9 
-     [1
+(/Users/rdas/Thesis/Sections/Introduction.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+ [1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.13 
-      [2]) [3] (/Users/rdas/Thesis/Sections/Theory.tex
+] [2]) [3]
+(/Users/rdas/Thesis/Sections/Theory.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
  [4
 
 ] [5] [6] [7] [8]
-<Figures/neutrino-xsec.png, id=396, 788.9475pt x 563.10374pt>
+<Figures/neutrino-xsec.png, id=62, 788.9475pt x 563.10374pt>
 File: Figures/neutrino-xsec.png Graphic file (type png)
 
 <use Figures/neutrino-xsec.png>
 Package pdftex.def Info: Figures/neutrino-xsec.png used on input line 104.
 (pdftex.def)             Requested size: 433.62pt x 309.49321pt.
- [9] [10 <./Figures/neutrino-xsec.png (PNG copy)>] [11] <Figures/ccqefeynman.pn
-g, id=420, 267.24844pt x 241.65282pt>
+ [9] [10 <./Figures/neutrino-xsec.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
+ [11] <Figures/ccqefeynman.png, id=72, 267.24844pt x 241.65282pt>
 File: Figures/ccqefeynman.png Graphic file (type png)
 
 <use Figures/ccqefeynman.png>
 Package pdftex.def Info: Figures/ccqefeynman.png used on input line 151.
 (pdftex.def)             Requested size: 216.81pt x 196.05481pt.
  [12] [13 <./Figures/ccqefeynman.png>] [14]
-[15] [16] <Figures/1pi.png, id=468, 355.3275pt x 384.6872pt>
+[15] [16] <Figures/1pi.png, id=91, 355.3275pt x 384.6872pt>
 File: Figures/1pi.png Graphic file (type png)
 
 <use Figures/1pi.png>
@@ -608,98 +499,81 @@ Package pdftex.def Info: Figures/1pi.png used on input line 229.
 (pdftex.def)             Requested size: 216.81pt x 234.72928pt.
  [17] [18 <./Figures/1pi.png>] [19] [20] [21] [22]
 [23] [24]) [25] (./Sections/DetectorDescription.tex
-<./Figures/t2k-schematic.jpg, id=561, 602.25pt x 150.5625pt>
+<./Figures/t2k-schematic.jpg, id=122, 602.25pt x 150.5625pt>
 File: ./Figures/t2k-schematic.jpg Graphic file (type jpg)
 
 <use ./Figures/t2k-schematic.jpg>
 Package pdftex.def Info: ./Figures/t2k-schematic.jpg used on input line 13.
 (pdftex.def)             Requested size: 422.77664pt x 105.69856pt.
- [26
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 17.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 17.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[26
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 17.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 17.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 17.
-
-<./Figures/OAbeamflux.png, id=574, 335.00156pt x 366.61969pt>
+] <./Figures/OAbeamflux.png, id=126, 335.00156pt x 366.61969pt>
 File: ./Figures/OAbeamflux.png Graphic file (type png)
 
 <use ./Figures/OAbeamflux.png>
 Package pdftex.def Info: ./Figures/OAbeamflux.png used on input line 23.
 (pdftex.def)             Requested size: 328.82707pt x 359.86104pt.
  [27 <./Figures/t2k-schematic.jpg>] [28 <./Figures/OAbeamflux.png>] <./Figures/
-beam1.png, id=586, 539.01375pt x 398.99063pt>
+beam1.png, id=135, 539.01375pt x 398.99063pt>
 File: ./Figures/beam1.png Graphic file (type png)
 
 <use ./Figures/beam1.png>
 Package pdftex.def Info: ./Figures/beam1.png used on input line 46.
 (pdftex.def)             Requested size: 433.62pt x 320.98283pt.
  [29 <./Figures/beam1.png>]
-<./Figures/beam2.png, id=594, 581.17125pt x 356.83313pt>
+<./Figures/beam2.png, id=140, 581.17125pt x 356.83313pt>
 File: ./Figures/beam2.png Graphic file (type png)
 
 <use ./Figures/beam2.png>
 Package pdftex.def Info: ./Figures/beam2.png used on input line 80.
 (pdftex.def)             Requested size: 216.81pt x 133.12059pt.
 
-<./Figures/beam3.png, id=595, 567.62062pt x 404.26031pt>
+<./Figures/beam3.png, id=141, 567.62062pt x 404.26031pt>
 File: ./Figures/beam3.png Graphic file (type png)
 
 <use ./Figures/beam3.png>
 Package pdftex.def Info: ./Figures/beam3.png used on input line 81.
 (pdftex.def)             Requested size: 216.81pt x 154.41008pt.
  [30] [31 <./Figures/beam2.png> <./Figures/beam3.png>] <./Figures/superk.png, i
-d=612, 569.12625pt x 380.92313pt>
+d=151, 569.12625pt x 380.92313pt>
 File: ./Figures/superk.png Graphic file (type png)
 
 <use ./Figures/superk.png>
 Package pdftex.def Info: ./Figures/superk.png used on input line 132.
 (pdftex.def)             Requested size: 433.62pt x 290.24275pt.
  [32] [33 <./Figures/superk.png>]
-<./Figures/pit.png, id=623, 354.57469pt x 441.14813pt>
+<./Figures/pit.png, id=159, 354.57469pt x 441.14813pt>
 File: ./Figures/pit.png Graphic file (type png)
  <use ./Figures/pit.png>
 Package pdftex.def Info: ./Figures/pit.png used on input line 163.
 (pdftex.def)             Requested size: 433.62pt x 539.50581pt.
 
-<./Figures/nd280.png, id=624, 423.08063pt x 365.86688pt>
+<./Figures/nd280.png, id=160, 423.08063pt x 365.86688pt>
 File: ./Figures/nd280.png Graphic file (type png)
 
 <use ./Figures/nd280.png>
 Package pdftex.def Info: ./Figures/nd280.png used on input line 174.
 (pdftex.def)             Requested size: 433.62pt x 374.99364pt.
  [34] [35 <./Figures/pit.png>] [36 <./Figures/nd280.png>] <./Figures/p0d1.png, 
-id=642, 347.04657pt x 406.51875pt>
+id=173, 347.04657pt x 406.51875pt>
 File: ./Figures/p0d1.png Graphic file (type png)
 
 <use ./Figures/p0d1.png>
 Package pdftex.def Info: ./Figures/p0d1.png used on input line 213.
 (pdftex.def)             Requested size: 328.82707pt x 385.19193pt.
 
-<./Figures/waterp0dule.png, id=643, 538.26094pt x 362.85562pt>
+<./Figures/waterp0dule.png, id=174, 538.26094pt x 362.85562pt>
 File: ./Figures/waterp0dule.png Graphic file (type png)
 
 <use ./Figures/waterp0dule.png>
 Package pdftex.def Info: ./Figures/waterp0dule.png used on input line 232.
 (pdftex.def)             Requested size: 433.62pt x 292.31686pt.
 
-<./Figures/waterheight.png, id=644, 430.60875pt x 295.1025pt>
+<./Figures/waterheight.png, id=175, 430.60875pt x 295.1025pt>
 File: ./Figures/waterheight.png Graphic file (type png)
 
 <use ./Figures/waterheight.png>
@@ -707,101 +581,82 @@ Package pdftex.def Info: ./Figures/waterheight.png used on input line 240.
 (pdftex.def)             Requested size: 328.82707pt x 225.3564pt.
  [37] [38 <./Figures/p0d1.png>] [39 <./Figures/waterp0dule.png> <./Figures/wate
 rheight.png>]
-<./Figures/mppc1.png, id=663, 533.74406pt x 201.75375pt>
-File: ./Figures/mppc1.png Graphic file (type png)
-
-<use ./Figures/mppc1.png>
-Package pdftex.def Info: ./Figures/mppc1.png used on input line 286.
-(pdftex.def)             Requested size: 361.34999pt x 136.59349pt.
-
-<./Figures/mppc2.png, id=664, 330.48468pt x 408.02437pt>
+<./Figures/mppc2.png, id=188, 330.48468pt x 408.02437pt>
 File: ./Figures/mppc2.png Graphic file (type png)
 
 <use ./Figures/mppc2.png>
-Package pdftex.def Info: ./Figures/mppc2.png used on input line 296.
+Package pdftex.def Info: ./Figures/mppc2.png used on input line 286.
 (pdftex.def)             Requested size: 361.34999pt x 446.15105pt.
 
-<./Figures/pedestal.png, id=665, 412.54124pt x 269.50688pt>
+<./Figures/mppc1.png, id=189, 533.74406pt x 201.75375pt>
+File: ./Figures/mppc1.png Graphic file (type png)
+
+<use ./Figures/mppc1.png>
+Package pdftex.def Info: ./Figures/mppc1.png used on input line 297.
+(pdftex.def)             Requested size: 361.34999pt x 136.59349pt.
+
+<./Figures/pedestal.png, id=190, 412.54124pt x 269.50688pt>
 File: ./Figures/pedestal.png Graphic file (type png)
 
 <use ./Figures/pedestal.png>
-Package pdftex.def Info: ./Figures/pedestal.png used on input line 313.
+Package pdftex.def Info: ./Figures/pedestal.png used on input line 314.
 (pdftex.def)             Requested size: 433.62pt x 283.28253pt.
- [40] [41 <./Figures/mppc1.png>] [42 <./Figures/mppc2.png>] [43 <./Figures/pede
-stal.png>]
-<./Figures/tpc1.png, id=689, 450.9347pt x 383.18156pt>
+ [40] [41 <./Figures/mppc2.png>] [42 <./Figures/mppc1.png> <./Figures/pedestal.
+png>] [43]
+<./Figures/tpc1.png, id=208, 450.9347pt x 383.18156pt>
 File: ./Figures/tpc1.png Graphic file (type png)
 
 <use ./Figures/tpc1.png>
-Package pdftex.def Info: ./Figures/tpc1.png used on input line 361.
+Package pdftex.def Info: ./Figures/tpc1.png used on input line 362.
 (pdftex.def)             Requested size: 260.17244pt x 221.09361pt.
 
-<./Figures/tpc2.png, id=690, 295.85532pt x 391.4625pt>
+<./Figures/tpc2.png, id=209, 295.85532pt x 391.4625pt>
 File: ./Figures/tpc2.png Graphic file (type png)
 
 <use ./Figures/tpc2.png>
-Package pdftex.def Info: ./Figures/tpc2.png used on input line 362.
+Package pdftex.def Info: ./Figures/tpc2.png used on input line 363.
 (pdftex.def)             Requested size: 173.44756pt x 229.5034pt.
  [44 <./Figures/tpc1.png> <./Figures/tpc2.png>]
-[45] <./Figures/magneticfield.png, id=702, 538.26094pt x 361.35pt>
+[45] <./Figures/magneticfield.png, id=218, 538.26094pt x 361.35pt>
 File: ./Figures/magneticfield.png Graphic file (type png)
 
 <use ./Figures/magneticfield.png>
-Package pdftex.def Info: ./Figures/magneticfield.png used on input line 420.
+Package pdftex.def Info: ./Figures/magneticfield.png used on input line 421.
 (pdftex.def)             Requested size: 433.62pt x 291.10394pt.
 
-<./Figures/magneticfield2.png, id=703, 553.31718pt x 317.68687pt>
+<./Figures/magneticfield2.png, id=219, 553.31718pt x 317.68687pt>
 File: ./Figures/magneticfield2.png Graphic file (type png)
 
 <use ./Figures/magneticfield2.png>
-Package pdftex.def Info: ./Figures/magneticfield2.png used on input line 429.
+Package pdftex.def Info: ./Figures/magneticfield2.png used on input line 430.
 (pdftex.def)             Requested size: 433.62pt x 248.963pt.
- [46 <./Figures/magneticfield.png>]
-<./Figures/smrd1.png, id=710, 226.59656pt x 324.46219pt>
+
+<./Figures/smrd1.png, id=220, 226.59656pt x 324.46219pt>
 File: ./Figures/smrd1.png Graphic file (type png)
 
 <use ./Figures/smrd1.png>
-Package pdftex.def Info: ./Figures/smrd1.png used on input line 447.
+Package pdftex.def Info: ./Figures/smrd1.png used on input line 448.
 (pdftex.def)             Requested size: 289.07999pt x 413.93382pt.
- [47 <./Figures/magneticfield2.png>] [48 <./Figures/smrd1.png>] <./Figures/ingr
-id1.png, id=724, 422.32782pt x 429.85594pt>
+ [46 <./Figures/magneticfield.png>] [47 <./Figures/magneticfield2.png>] [48 <./
+Figures/smrd1.png>]
+<./Figures/ingrid1.png, id=234, 422.32782pt x 429.85594pt>
 File: ./Figures/ingrid1.png Graphic file (type png)
 
 <use ./Figures/ingrid1.png>
-Package pdftex.def Info: ./Figures/ingrid1.png used on input line 503.
+Package pdftex.def Info: ./Figures/ingrid1.png used on input line 504.
 (pdftex.def)             Requested size: 433.62pt x 441.35948pt.
- [49]
-<./Figures/ingrid2.png, id=729, 570.63188pt x 301.125pt>
+
+<./Figures/ingrid2.png, id=235, 570.63188pt x 301.125pt>
 File: ./Figures/ingrid2.png Graphic file (type png)
 
 <use ./Figures/ingrid2.png>
-Package pdftex.def Info: ./Figures/ingrid2.png used on input line 512.
+Package pdftex.def Info: ./Figures/ingrid2.png used on input line 513.
 (pdftex.def)             Requested size: 433.62pt x 228.8252pt.
-) [50] [51 <./Figures/ingrid1.png>] [52 <./Figures/ingrid2.png>] (/Users/rdas/T
-hesis/Sections/FluxDetermination.tex
+) [49] [50 <./Figures/ingrid1.png>] [51 <./Figures/ingrid2.png>] (/Users/rdas/T
+hesis/Sections/FluxDetermination.tex [52
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-[53
-
-] <Figures/flux/fluxparent.PNG, id=756, 707.64375pt x 477.785pt>
+]
+<Figures/flux/fluxparent.PNG, id=250, 707.64375pt x 477.785pt>
 File: Figures/flux/fluxparent.PNG Graphic file (type png)
 
 <use Figures/flux/fluxparent.PNG>
@@ -811,14 +666,14 @@ Package pdftex.def Info: Figures/flux/fluxparent.PNG used on input line 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54] [55 <./Figures/flux/fluxparent.PNG>]
-<Figures/flux/tuningresult.PNG, id=773, 592.46344pt x 462.97969pt>
+[53] [54 <./Figures/flux/fluxparent.PNG>]
+<Figures/flux/tuningresult.PNG, id=259, 592.46344pt x 462.97969pt>
 File: Figures/flux/tuningresult.PNG Graphic file (type png)
 
 <use Figures/flux/tuningresult.PNG>
 Package pdftex.def Info: Figures/flux/tuningresult.PNG used on input line 24.
 (pdftex.def)             Requested size: 469.75499pt x 367.09926pt.
- [56 <./Figures/flux/tuningresult.PNG>]
+ [55 <./Figures/flux/tuningresult.PNG>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -826,8 +681,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
- [57]
-<Figures/flux/fracuncertainty.PNG, id=785, 631.60968pt x 439.6425pt>
+ [56]
+<Figures/flux/fracuncertainty.PNG, id=267, 631.60968pt x 439.6425pt>
 File: Figures/flux/fracuncertainty.PNG Graphic file (type png)
 
 <use Figures/flux/fracuncertainty.PNG>
@@ -835,126 +690,114 @@ Package pdftex.def Info: Figures/flux/fracuncertainty.PNG used on input line 57
 .
 (pdftex.def)             Requested size: 469.75499pt x 326.98732pt.
 
-<Figures/flux_cov_init.png, id=786, 698.61pt x 475.7775pt>
+<Figures/flux_cov_init.png, id=268, 698.61pt x 475.7775pt>
 File: Figures/flux_cov_init.png Graphic file (type png)
 
 <use Figures/flux_cov_init.png>
 Package pdftex.def Info: Figures/flux_cov_init.png used on input line 64.
 (pdftex.def)             Requested size: 433.62pt x 295.31294pt.
- [58] [59 <./Figures/flux/fracuncertainty.PNG>]
-[60 <./Figures/flux_cov_init.png>]) [61]
+ [57] [58 <./Figures/flux/fracuncertainty.PNG>]
+[59 <./Figures/flux_cov_init.png>]) [60]
 (/Users/rdas/Thesis/Sections/EventSimulation.tex
 Overfull \hbox (0.75734pt too wide) in paragraph at lines 6--7
 []\OT1/ptm/m/n/12 The task of prop-a-gat-ing par-ti-cles through the de-tec-tor
  ma-te-ri-als is ac-com-plished with GEANT4,
  []
 
-[62
+[61
 
-] <Figures/ccqefit.PNG, id=821, 955.31906pt x 383.93437pt>
+] <Figures/ccqefit.PNG, id=286, 955.31906pt x 383.93437pt>
 File: Figures/ccqefit.PNG Graphic file (type png)
 
 <use Figures/ccqefit.PNG>
 Package pdftex.def Info: Figures/ccqefit.PNG used on input line 18.
 (pdftex.def)             Requested size: 433.62pt x 174.2686pt.
- [63] [64 <./Figures/ccqefit.PNG>]
-<Figures/1pifit1.PNG, id=836, 327.47343pt x 325.96782pt>
+ [62] [63 <./Figures/ccqefit.PNG>]
+<Figures/1pifit1.PNG, id=294, 327.47343pt x 325.96782pt>
 File: Figures/1pifit1.PNG Graphic file (type png)
 
 <use Figures/1pifit1.PNG>
 Package pdftex.def Info: Figures/1pifit1.PNG used on input line 39.
 (pdftex.def)             Requested size: 144.54pt x 143.87392pt.
 
-<Figures/1pifit2.PNG, id=837, 336.50719pt x 325.96782pt>
+<Figures/1pifit2.PNG, id=295, 336.50719pt x 325.96782pt>
 File: Figures/1pifit2.PNG Graphic file (type png)
 
 <use Figures/1pifit2.PNG>
 Package pdftex.def Info: Figures/1pifit2.PNG used on input line 40.
 (pdftex.def)             Requested size: 144.54pt x 140.0142pt.
 
-<Figures/1pifit3.PNG, id=838, 331.2375pt x 325.96782pt>
+<Figures/1pifit3.PNG, id=296, 331.2375pt x 325.96782pt>
 File: Figures/1pifit3.PNG Graphic file (type png)
 
 <use Figures/1pifit3.PNG>
 Package pdftex.def Info: Figures/1pifit3.PNG used on input line 41.
 (pdftex.def)             Requested size: 144.54pt x 142.23752pt.
- [65]
-<Figures/1pienushp1.PNG, id=850, 374.90062pt x 362.10281pt>
+ [64]
+<Figures/1pienushp1.PNG, id=300, 374.90062pt x 362.10281pt>
 File: Figures/1pienushp1.PNG Graphic file (type png)
 
 <use Figures/1pienushp1.PNG>
 Package pdftex.def Info: Figures/1pienushp1.PNG used on input line 55.
 (pdftex.def)             Requested size: 216.81pt x 209.41199pt.
 
-<Figures/1pienushp2.PNG, id=851, 368.87813pt x 256.70906pt>
+<Figures/1pienushp2.PNG, id=301, 368.87813pt x 256.70906pt>
 File: Figures/1pienushp2.PNG Graphic file (type png)
 
 <use Figures/1pienushp2.PNG>
 Package pdftex.def Info: Figures/1pienushp2.PNG used on input line 56.
 (pdftex.def)             Requested size: 216.81pt x 150.88121pt.
 
-<Figures/xseccorr.png, id=852, 535.2497pt x 359.84438pt>
+<Figures/xseccorr.png, id=302, 535.2497pt x 359.84438pt>
 File: Figures/xseccorr.png Graphic file (type png)
 
 <use Figures/xseccorr.png>
 Package pdftex.def Info: Figures/xseccorr.png used on input line 63.
 (pdftex.def)             Requested size: 433.62pt x 291.53275pt.
- [66 <./Figures/1pifit1.PNG> <./Figures/1pifit2.PNG> <./Figures/1pifit3.PNG>] [
-67 <./Figures/1pienushp1.PNG> <./Figures/1pienushp2.PNG> <./Figures/xseccorr.pn
-g>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 73.
-
-[68] [69] <Figures/disminos.PNG, id=892, 666.99188pt x 414.04688pt>
+ [65 <./Figures/1pifit1.PNG> <./Figures/1pifit2.PNG> <./Figures/1pifit3.PNG>] [
+66 <./Figures/1pienushp1.PNG> <./Figures/1pienushp2.PNG> <./Figures/xseccorr.pn
+g>] [67] [68]
+<Figures/disminos.PNG, id=321, 666.99188pt x 414.04688pt>
 File: Figures/disminos.PNG Graphic file (type png)
 
 <use Figures/disminos.PNG>
 Package pdftex.def Info: Figures/disminos.PNG used on input line 103.
 (pdftex.def)             Requested size: 433.62pt x 269.18413pt.
- [70] [71 <./Figures/disminos.PNG>]
-<Figures/fsifit.PNG, id=910, 496.85625pt x 483.30562pt>
+ [69] [70 <./Figures/disminos.PNG>]
+<Figures/fsifit.PNG, id=329, 496.85625pt x 483.30562pt>
 File: Figures/fsifit.PNG Graphic file (type png)
 
 <use Figures/fsifit.PNG>
 Package pdftex.def Info: Figures/fsifit.PNG used on input line 121.
 (pdftex.def)             Requested size: 433.62pt x 421.79993pt.
-) [72] [73 <./Figures/fsifit.PNG>]
-(/Users/rdas/Thesis/Sections/Reconstruction.tex [74
+) [71] [72 <./Figures/fsifit.PNG>]
+(/Users/rdas/Thesis/Sections/Reconstruction.tex [73
 
 ]
-<Figures/Reconstruction/nd280geom.PNG, id=930, 450.18187pt x 264.99pt>
+<Figures/Reconstruction/nd280geom.PNG, id=341, 450.18187pt x 264.99pt>
 File: Figures/Reconstruction/nd280geom.PNG Graphic file (type png)
 
 <use Figures/Reconstruction/nd280geom.PNG>
 Package pdftex.def Info: Figures/Reconstruction/nd280geom.PNG used on input lin
 e 19.
 (pdftex.def)             Requested size: 469.75499pt x 276.5252pt.
- [75] [76 <./Figures/Reconstruction/nd280geom.PNG>]
-<Figures/Reconstruction/tpcrecoflow.PNG, id=943, 334.24875pt x 466.74374pt>
+ [74] [75 <./Figures/Reconstruction/nd280geom.PNG>]
+<Figures/Reconstruction/tpcrecoflow.PNG, id=349, 334.24875pt x 466.74374pt>
 File: Figures/Reconstruction/tpcrecoflow.PNG Graphic file (type png)
 
 <use Figures/Reconstruction/tpcrecoflow.PNG>
 Package pdftex.def Info: Figures/Reconstruction/tpcrecoflow.PNG used on input l
 ine 33.
 (pdftex.def)             Requested size: 397.48499pt x 555.09009pt.
- [77] [78 <./Figures/Reconstruction/tpcrecoflow.PNG>] [79] [80] [81]
-<Figures/Reconstruction/p0drecoflow.PNG, id=976, 637.63219pt x 392.21532pt>
+ [76] [77 <./Figures/Reconstruction/tpcrecoflow.PNG>] [78] [79] [80]
+<Figures/Reconstruction/p0drecoflow.PNG, id=367, 637.63219pt x 392.21532pt>
 File: Figures/Reconstruction/p0drecoflow.PNG Graphic file (type png)
 
 <use Figures/Reconstruction/p0drecoflow.PNG>
 Package pdftex.def Info: Figures/Reconstruction/p0drecoflow.PNG used on input l
 ine 76.
 (pdftex.def)             Requested size: 433.62pt x 266.72682pt.
- [82 <./Figures/Reconstruction/p0drecoflow.PNG>] [83] [84] [85]
+ [81 <./Figures/Reconstruction/p0drecoflow.PNG>] [82] [83] [84]
 Package epstopdf Info: Source file: <Figures/drCalc.eps>
 (epstopdf)                    date: 2014-02-18 20:02:32
 (epstopdf)                    size: 1662397 bytes
@@ -966,7 +809,7 @@ ed-to.pdf Figures/drCalc.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/drCalc-eps-converted-to.pdf, id=997, 753.81625pt x 364.36125pt>
+<Figures/drCalc-eps-converted-to.pdf, id=382, 753.81625pt x 364.36125pt>
 File: Figures/drCalc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/drCalc-eps-converted-to.pdf>
@@ -985,36 +828,36 @@ converted-to.pdf Figures/sindThetaCalc.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/sindThetaCalc-eps-converted-to.pdf, id=998, 723.70375pt x 369.38pt>
+<Figures/sindThetaCalc-eps-converted-to.pdf, id=383, 723.70375pt x 369.38pt>
 File: Figures/sindThetaCalc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/sindThetaCalc-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/sindThetaCalc-eps-converted-to.pdf used on inp
 ut line 121.
 (pdftex.def)             Requested size: 231.26378pt x 118.03491pt.
- [86]
-<Figures/FOM1.png, id=1005, 718.93594pt x 329.73187pt>
+ [85]
+<Figures/FOM1.png, id=387, 718.93594pt x 329.73187pt>
 File: Figures/FOM1.png Graphic file (type png)
  <use Figures/FOM1.png>
 Package pdftex.def Info: Figures/FOM1.png used on input line 135.
 (pdftex.def)             Requested size: 433.62pt x 198.88211pt.
 
-[87 <./Figures/drCalc-eps-converted-to.pdf> <./Figures/sindThetaCalc-eps-conver
-ted-to.pdf>] <Figures/FOM2.png, id=1018, 717.43031pt x 331.2375pt>
+[86 <./Figures/drCalc-eps-converted-to.pdf> <./Figures/sindThetaCalc-eps-conver
+ted-to.pdf>] <Figures/FOM2.png, id=397, 717.43031pt x 331.2375pt>
 File: Figures/FOM2.png Graphic file (type png)
 
 <use Figures/FOM2.png>
 Package pdftex.def Info: Figures/FOM2.png used on input line 143.
 (pdftex.def)             Requested size: 433.62pt x 200.20471pt.
 
-<Figures/matchpar1.png, id=1024, 681.29532pt x 308.65312pt>
+<Figures/matchpar1.png, id=398, 681.29532pt x 308.65312pt>
 File: Figures/matchpar1.png Graphic file (type png)
 
 <use Figures/matchpar1.png>
 Package pdftex.def Info: Figures/matchpar1.png used on input line 153.
 (pdftex.def)             Requested size: 433.62pt x 196.44939pt.
- [88 <./Figures/FOM1.png>]
-<Figures/matchpar2.png, id=1034, 679.78969pt x 309.40594pt>
+ [87 <./Figures/FOM1.png>]
+<Figures/matchpar2.png, id=403, 679.78969pt x 309.40594pt>
 File: Figures/matchpar2.png Graphic file (type png)
 
 <use Figures/matchpar2.png>
@@ -1024,47 +867,47 @@ Package pdftex.def Info: Figures/matchpar2.png used on input line 161.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[89 <./Figures/FOM2.png>]
-<Figures/eLossCalc1.png, id=1043, 603.75563pt x 359.09157pt>
+[88 <./Figures/FOM2.png>]
+<Figures/eLossCalc1.png, id=408, 603.75563pt x 359.09157pt>
 File: Figures/eLossCalc1.png Graphic file (type png)
 
 <use Figures/eLossCalc1.png>
 Package pdftex.def Info: Figures/eLossCalc1.png used on input line 178.
 (pdftex.def)             Requested size: 397.48499pt x 236.4094pt.
 
-<Figures/momentumresidual.png, id=1044, 457.71pt x 432.11438pt>
+<Figures/momentumresidual.png, id=409, 457.71pt x 432.11438pt>
 File: Figures/momentumresidual.png Graphic file (type png)
 
 <use Figures/momentumresidual.png>
 Package pdftex.def Info: Figures/momentumresidual.png used on input line 186.
 (pdftex.def)             Requested size: 397.48499pt x 375.27052pt.
-) [90 <./Figures/matchpar1.png>] [91 <./Figures/matchpar2.png> <./Figures/eLoss
-Calc1.png>] [92 <./Figures/momentumresidual.png>] (/Users/rdas/Thesis/Sections/
-FVFM.tex [93
+) [89 <./Figures/matchpar1.png>] [90 <./Figures/matchpar2.png> <./Figures/eLoss
+Calc1.png>] [91 <./Figures/momentumresidual.png>] (/Users/rdas/Thesis/Sections/
+FVFM.tex [92
 
-] [94] [95]
-<Figures/cdmline.png, id=1082, 420.06938pt x 278.54062pt>
+] [93] [94]
+<Figures/cdmline.png, id=433, 420.06938pt x 278.54062pt>
 File: Figures/cdmline.png Graphic file (type png)
 
 <use Figures/cdmline.png>
 Package pdftex.def Info: Figures/cdmline.png used on input line 52.
 (pdftex.def)             Requested size: 231.26378pt x 153.34656pt.
 
-<Figures/cdmhist.png, id=1083, 448.67625pt x 307.1475pt>
+<Figures/cdmhist.png, id=434, 448.67625pt x 307.1475pt>
 File: Figures/cdmhist.png Graphic file (type png)
 
 <use Figures/cdmhist.png>
 Package pdftex.def Info: Figures/cdmhist.png used on input line 53.
 (pdftex.def)             Requested size: 231.26378pt x 158.3116pt.
- [96 <./Figures/cdmline.png> <./Figures/cdmhist.png>]
-[97]) [98] (/Users/rdas/Thesis/Sections/Samples.tex [99
+ [95 <./Figures/cdmline.png> <./Figures/cdmhist.png>]
+[96]) [97] (/Users/rdas/Thesis/Sections/Samples.tex [98
 
-] [100]
+] [99]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[101] [102]) (/Users/rdas/Thesis/Sections/Selection.tex [103] [104]
-<Figures/smveto.png, id=1152, 670.75594pt x 282.30469pt>
+[100] [101]) (/Users/rdas/Thesis/Sections/Selection.tex [102] [103]
+<Figures/smveto.png, id=466, 670.75594pt x 282.30469pt>
 File: Figures/smveto.png Graphic file (type png)
 
 <use Figures/smveto.png>
@@ -1074,7 +917,7 @@ Package pdftex.def Info: Figures/smveto.png used on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[105] <Figures/TN100Plots/c_Pwater_1.png, id=1163, 798.985pt x 774.895pt>
+[104] <Figures/TN100Plots/c_Pwater_1.png, id=470, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pwater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pwater_1.png>
@@ -1082,7 +925,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pwater_1.png used on input line 6
 6.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thwater_1.png, id=1164, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thwater_1.png, id=471, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thwater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thwater_1.png>
@@ -1090,7 +933,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thwater_1.png used on input line
 67.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xwater_1.png, id=1165, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xwater_1.png, id=472, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xwater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xwater_1.png>
@@ -1098,7 +941,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xwater_1.png used on input line 6
 8.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Ywater_1.png, id=1166, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Ywater_1.png, id=473, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Ywater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Ywater_1.png>
@@ -1109,7 +952,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Ywater_1.png used on input line 6
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Pwater_2.png, id=1167, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Pwater_2.png, id=474, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pwater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pwater_2.png>
@@ -1117,7 +960,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pwater_2.png used on input line 7
 6.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thwater_2.png, id=1168, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thwater_2.png, id=475, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thwater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thwater_2.png>
@@ -1125,7 +968,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thwater_2.png used on input line
 77.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xwater_2.png, id=1169, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xwater_2.png, id=476, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xwater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xwater_2.png>
@@ -1133,7 +976,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xwater_2.png used on input line 7
 8.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Ywater_2.png, id=1170, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Ywater_2.png, id=477, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Ywater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Ywater_2.png>
@@ -1144,7 +987,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Ywater_2.png used on input line 7
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Pwater_4.png, id=1171, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Pwater_4.png, id=478, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pwater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pwater_4.png>
@@ -1152,7 +995,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pwater_4.png used on input line 8
 6.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thwater_4.png, id=1172, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thwater_4.png, id=479, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thwater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thwater_4.png>
@@ -1160,7 +1003,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thwater_4.png used on input line
 87.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xwater_4.png, id=1173, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xwater_4.png, id=480, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xwater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xwater_4.png>
@@ -1168,7 +1011,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xwater_4.png used on input line 8
 8.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Ywater_4.png, id=1174, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Ywater_4.png, id=481, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Ywater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Ywater_4.png>
@@ -1179,7 +1022,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Ywater_4.png used on input line 8
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Pair_2.png, id=1175, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Pair_2.png, id=482, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pair_2.png>
@@ -1187,7 +1030,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pair_2.png used on input line 96.
 
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thair_2.png, id=1176, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thair_2.png, id=483, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thair_2.png>
@@ -1195,7 +1038,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thair_2.png used on input line 97
 .
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xair_2.png, id=1177, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xair_2.png, id=484, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xair_2.png>
@@ -1203,7 +1046,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xair_2.png used on input line 98.
 
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Yair_2.png, id=1178, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Yair_2.png, id=485, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Yair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Yair_2.png>
@@ -1214,7 +1057,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Yair_2.png used on input line 99.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Pair_3.png, id=1179, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Pair_3.png, id=486, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pair_3.png>
@@ -1222,7 +1065,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pair_3.png used on input line 106
 .
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thair_3.png, id=1180, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thair_3.png, id=487, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thair_3.png>
@@ -1230,7 +1073,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thair_3.png used on input line 10
 7.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xair_3.png, id=1181, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xair_3.png, id=488, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xair_3.png>
@@ -1238,7 +1081,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xair_3.png used on input line 108
 .
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Yair_3.png, id=1182, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Yair_3.png, id=489, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Yair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Yair_3.png>
@@ -1249,7 +1092,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Yair_3.png used on input line 109
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Pair_4.png, id=1183, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Pair_4.png, id=490, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Pair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Pair_4.png>
@@ -1257,7 +1100,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Pair_4.png used on input line 116
 .
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Thair_4.png, id=1184, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Thair_4.png, id=491, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Thair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Thair_4.png>
@@ -1265,7 +1108,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Thair_4.png used on input line 11
 7.
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Xair_4.png, id=1185, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Xair_4.png, id=492, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Xair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Xair_4.png>
@@ -1273,7 +1116,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Xair_4.png used on input line 118
 .
 (pdftex.def)             Requested size: 216.81pt x 210.26495pt.
 
-<Figures/TN100Plots/c_Yair_4.png, id=1186, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Yair_4.png, id=493, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Yair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Yair_4.png>
@@ -1284,7 +1127,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Yair_4.png used on input line 119
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Layerwater_1.png, id=1187, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerwater_1.png, id=494, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerwater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerwater_1.png>
@@ -1292,7 +1135,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Layerwater_1.png used on input li
 ne 126.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/c_Layerwater_2.png, id=1188, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerwater_2.png, id=495, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerwater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerwater_2.png>
@@ -1300,7 +1143,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Layerwater_2.png used on input li
 ne 127.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/c_Layerwater_4.png, id=1189, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerwater_4.png, id=496, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerwater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerwater_4.png>
@@ -1311,7 +1154,7 @@ ne 128.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/c_Layerair_2.png, id=1190, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerair_2.png, id=497, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerair_2.png>
@@ -1319,7 +1162,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Layerair_2.png used on input line
  135.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/c_Layerair_3.png, id=1191, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerair_3.png, id=498, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerair_3.png>
@@ -1327,7 +1170,7 @@ Package pdftex.def Info: Figures/TN100Plots/c_Layerair_3.png used on input line
  136.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/c_Layerair_4.png, id=1192, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_Layerair_4.png, id=499, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_Layerair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_Layerair_4.png>
@@ -1338,45 +1181,39 @@ Package pdftex.def Info: Figures/TN100Plots/c_Layerair_4.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[106 <./Figures/smveto.png>]) [107] [108 <./Figures/TN100Plots/c_Pwater_1.png> 
+[105 <./Figures/smveto.png>]) [106] [107 <./Figures/TN100Plots/c_Pwater_1.png> 
 <./Figures/TN100Plots/c_Thwater_1.png> <./Figures/TN100Plots/c_Xwater_1.png> <.
-/Figures/TN100Plots/c_Ywater_1.png>] [109 <./Figures/TN100Plots/c_Pwater_2.png>
+/Figures/TN100Plots/c_Ywater_1.png>] [108 <./Figures/TN100Plots/c_Pwater_2.png>
  <./Figures/TN100Plots/c_Thwater_2.png> <./Figures/TN100Plots/c_Xwater_2.png> <
-./Figures/TN100Plots/c_Ywater_2.png>] [110 <./Figures/TN100Plots/c_Pwater_4.png
+./Figures/TN100Plots/c_Ywater_2.png>] [109 <./Figures/TN100Plots/c_Pwater_4.png
 > <./Figures/TN100Plots/c_Thwater_4.png> <./Figures/TN100Plots/c_Xwater_4.png> 
-<./Figures/TN100Plots/c_Ywater_4.png>] [111 <./Figures/TN100Plots/c_Pair_2.png>
+<./Figures/TN100Plots/c_Ywater_4.png>] [110 <./Figures/TN100Plots/c_Pair_2.png>
  <./Figures/TN100Plots/c_Thair_2.png> <./Figures/TN100Plots/c_Xair_2.png> <./Fi
-gures/TN100Plots/c_Yair_2.png>] [112 <./Figures/TN100Plots/c_Pair_3.png> <./Fig
+gures/TN100Plots/c_Yair_2.png>] [111 <./Figures/TN100Plots/c_Pair_3.png> <./Fig
 ures/TN100Plots/c_Thair_3.png> <./Figures/TN100Plots/c_Xair_3.png> <./Figures/T
-N100Plots/c_Yair_3.png>] [113 <./Figures/TN100Plots/c_Pair_4.png> <./Figures/TN
+N100Plots/c_Yair_3.png>] [112 <./Figures/TN100Plots/c_Pair_4.png> <./Figures/TN
 100Plots/c_Thair_4.png> <./Figures/TN100Plots/c_Xair_4.png> <./Figures/TN100Plo
-ts/c_Yair_4.png>] [114 <./Figures/TN100Plots/c_Layerwater_1.png> <./Figures/TN1
+ts/c_Yair_4.png>] [113 <./Figures/TN100Plots/c_Layerwater_1.png> <./Figures/TN1
 00Plots/c_Layerwater_2.png> <./Figures/TN100Plots/c_Layerwater_4.png> <./Figure
 s/TN100Plots/c_Layerair_2.png> <./Figures/TN100Plots/c_Layerair_3.png> <./Figur
 es/TN100Plots/c_Layerair_4.png>] (/Users/rdas/Thesis/Sections/XSecXtract.tex
-[115
+[114
 
-] [116pdfTeX warning (ext4): destination with the same identifier (name{equatio
-n.9.91}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72 
-     ] <Figures/TN100Plots/cBG1w.png, id=1265, 798.985pt x 774.895pt>
+] [115] <Figures/TN100Plots/cBG1w.png, id=535, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/cBG1w.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG1w.png>
 Package pdftex.def Info: Figures/TN100Plots/cBG1w.png used on input line 91.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/cBG2w.png, id=1266, 798.985pt x 774.895pt>
+<Figures/TN100Plots/cBG2w.png, id=536, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/cBG2w.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG2w.png>
 Package pdftex.def Info: Figures/TN100Plots/cBG2w.png used on input line 92.
 (pdftex.def)             Requested size: 144.54pt x 140.17268pt.
 
-<Figures/TN100Plots/cBG4w.png, id=1267, 798.985pt x 774.895pt>
+<Figures/TN100Plots/cBG4w.png, id=537, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/cBG4w.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG4w.png>
@@ -1386,14 +1223,14 @@ Package pdftex.def Info: Figures/TN100Plots/cBG4w.png used on input line 93.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/TN100Plots/cBG2a.png, id=1268, 798.985pt x 774.895pt>
+<Figures/TN100Plots/cBG2a.png, id=538, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/cBG2a.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG2a.png>
 Package pdftex.def Info: Figures/TN100Plots/cBG2a.png used on input line 100.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/cBG3a.png, id=1269, 798.985pt x 774.895pt>
+<Figures/TN100Plots/cBG3a.png, id=539, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/cBG3a.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG3a.png>
@@ -1403,13 +1240,13 @@ Package pdftex.def Info: Figures/TN100Plots/cBG3a.png used on input line 101.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/BGw.png, id=1270, 599.23875pt x 432.11438pt>
+<Figures/BGw.png, id=540, 599.23875pt x 432.11438pt>
 File: Figures/BGw.png Graphic file (type png)
  <use Figures/BGw.png>
 Package pdftex.def Info: Figures/BGw.png used on input line 108.
 (pdftex.def)             Requested size: 216.81pt x 156.33908pt.
 
-<Figures/BGa.png, id=1271, 599.23875pt x 432.11438pt>
+<Figures/BGa.png, id=541, 599.23875pt x 432.11438pt>
 File: Figures/BGa.png Graphic file (type png)
  <use Figures/BGa.png>
 Package pdftex.def Info: Figures/BGa.png used on input line 109.
@@ -1418,147 +1255,142 @@ Package pdftex.def Info: Figures/BGa.png used on input line 109.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[117] [118 <./Figures/TN100Plots/cBG1w.png> <./Figures/TN100Plots/cBG2w.png> <.
-/Figures/TN100Plots/cBG4w.png>] [119 <./Figures/TN100Plots/cBG2a.png> <./Figure
+[116] [117 <./Figures/TN100Plots/cBG1w.png> <./Figures/TN100Plots/cBG2w.png> <.
+/Figures/TN100Plots/cBG4w.png>] [118 <./Figures/TN100Plots/cBG2a.png> <./Figure
 s/TN100Plots/cBG3a.png>]
-<Figures/TN100Plots/cNBEw.png, id=1298, 798.985pt x 574.145pt>
+<Figures/TN100Plots/cNBEw.png, id=551, 798.985pt x 574.145pt>
 File: Figures/TN100Plots/cNBEw.png Graphic file (type png)
 
 <use Figures/TN100Plots/cNBEw.png>
 Package pdftex.def Info: Figures/TN100Plots/cNBEw.png used on input line 122.
 (pdftex.def)             Requested size: 216.81pt x 155.79216pt.
 
-<Figures/TN100Plots/cNBEa.png, id=1299, 798.985pt x 574.145pt>
+<Figures/TN100Plots/cNBEa.png, id=552, 798.985pt x 574.145pt>
 File: Figures/TN100Plots/cNBEa.png Graphic file (type png)
 
 <use Figures/TN100Plots/cNBEa.png>
 Package pdftex.def Info: Figures/TN100Plots/cNBEa.png used on input line 123.
 (pdftex.def)             Requested size: 216.81pt x 155.79216pt.
 
-<Figures/TN100Plots/cBG_RvZ.png, id=1300, 599.23875pt x 581.17125pt>
+<Figures/TN100Plots/cBG_RvZ.png, id=553, 599.23875pt x 581.17125pt>
 File: Figures/TN100Plots/cBG_RvZ.png Graphic file (type png)
 
 <use Figures/TN100Plots/cBG_RvZ.png>
 Package pdftex.def Info: Figures/TN100Plots/cBG_RvZ.png used on input line 130.
 
-(pdftex.def)             Requested size: 433.62pt x 420.55356pt.
+(pdftex.def)             Requested size: 361.34999pt x 350.46129pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[120 <./Figures/BGw.png> <./Figures/BGa.png> <./Figures/TN100Plots/cNBEw.png> <
-./Figures/TN100Plots/cNBEa.png>] [121 <./Figures/TN100Plots/cBG_RvZ.png>]
-<Figures/TN100Plots/cEff_RvZ.png, id=1316, 599.23875pt x 581.17125pt>
+[119 <./Figures/BGw.png> <./Figures/BGa.png> <./Figures/TN100Plots/cNBEw.png> <
+./Figures/TN100Plots/cNBEa.png>] [120 <./Figures/TN100Plots/cBG_RvZ.png>]
+<Figures/TN100Plots/cEff_RvZ.png, id=564, 599.23875pt x 581.17125pt>
 File: Figures/TN100Plots/cEff_RvZ.png Graphic file (type png)
 
 <use Figures/TN100Plots/cEff_RvZ.png>
 Package pdftex.def Info: Figures/TN100Plots/cEff_RvZ.png used on input line 139
 .
-(pdftex.def)             Requested size: 433.62pt x 420.55356pt.
- [122
+(pdftex.def)             Requested size: 361.34999pt x 350.46129pt.
 
- <./Figures/TN100Plots/cEff_RvZ.png>] <Figures/fluxes.png, id=1324, 798.985pt x
- 576.1525pt>
+<Figures/fluxes.png, id=565, 798.985pt x 576.1525pt>
 File: Figures/fluxes.png Graphic file (type png)
-
-<use Figures/fluxes.png>
-Package pdftex.def Info: Figures/fluxes.png used on input line 154.
+ <use Figures/fluxes.png>
+Package pdftex.def Info: Figures/fluxes.png used on input line 152.
 (pdftex.def)             Requested size: 361.34999pt x 260.56734pt.
 
-<Figures/TN100Plots/c_nuEwater_1.png, id=1325, 798.985pt x 774.895pt>
+[121
+
+ <./Figures/TN100Plots/cEff_RvZ.png>]
+<Figures/TN100Plots/c_nuEwater_1.png, id=570, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEwater_1.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEwater_1.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEwater_1.png used on input line
- 161.
+ 159.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/c_nuEwater_2.png, id=1326, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_nuEwater_2.png, id=571, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEwater_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEwater_2.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEwater_2.png used on input line
- 162.
+ 160.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/c_nuEwater_4.png, id=1327, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_nuEwater_4.png, id=572, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEwater_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEwater_4.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEwater_4.png used on input line
- 163.
+ 161.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/c_nuEair_2.png, id=1328, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_nuEair_2.png, id=573, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEair_2.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEair_2.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEair_2.png used on input line 1
-64.
+62.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/c_nuEair_3.png, id=1329, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_nuEair_3.png, id=574, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEair_3.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEair_3.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEair_3.png used on input line 1
-65.
+63.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
-<Figures/TN100Plots/c_nuEair_4.png, id=1330, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_nuEair_4.png, id=575, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_nuEair_4.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_nuEair_4.png>
 Package pdftex.def Info: Figures/TN100Plots/c_nuEair_4.png used on input line 1
-66.
+64.
 (pdftex.def)             Requested size: 180.67499pt x 175.21883pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[123
+[122 <./Figures/fluxes.png>]) [123] [124 <./Figures/TN100Plots/c_nuEwater_1.png
+> <./Figures/TN100Plots/c_nuEwater_2.png> <./Figures/TN100Plots/c_nuEwater_4.pn
+g> <./Figures/TN100Plots/c_nuEair_2.png> <./Figures/TN100Plots/c_nuEair_3.png> 
+<./Figures/TN100Plots/c_nuEair_4.png>]
+(/Users/rdas/Thesis/Sections/Systematics.tex [125
 
- <./Figures/fluxes.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [124] [125] [126 <./Figures/TN100Plots/c_nuEwater_1.png> <./Figures/TN100Plot
-s/c_nuEwater_2.png> <./Figures/TN100Plots/c_nuEwater_4.png> <./Figures/TN100Plo
-ts/c_nuEair_2.png> <./Figures/TN100Plots/c_nuEair_3.png> <./Figures/TN100Plots/
-c_nuEair_4.png>] (/Users/rdas/Thesis/Sections/Systematics.tex [127
-
-] [128]
-<Figures/fluxvar.png, id=1373, 798.985pt x 576.1525pt>
+] [126]
+<Figures/fluxvar.png, id=592, 798.985pt x 576.1525pt>
 File: Figures/fluxvar.png Graphic file (type png)
 
 <use Figures/fluxvar.png>
 Package pdftex.def Info: Figures/fluxvar.png used on input line 40.
 (pdftex.def)             Requested size: 361.34999pt x 260.56734pt.
- [129] [130 <./Figures/fluxvar.png>]
+ [127] [128 <./Figures/fluxvar.png>]
 Overfull \hbox (18.90535pt too wide) in paragraph at lines 50--51
 \OT1/ptm/m/n/12 and we were not di-rectly in-volved with its de-vel-op-ment. Th
 is Sec-tion cov-ers how we use T2KReWeight
  []
 
-[131] [132] [133] [134]
-<Figures/TN100Plots/c_6_0.png, id=1411, 798.985pt x 774.895pt>
+[129] [130] [131] [132]
+<Figures/TN100Plots/c_6_0.png, id=612, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_6_0.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_6_0.png>
 Package pdftex.def Info: Figures/TN100Plots/c_6_0.png used on input line 117.
 (pdftex.def)             Requested size: 361.34999pt x 350.44946pt.
- [135
+ [133
 
  <./Figures/TN100Plots/c_6_0.png>]
-<Figures/TN100Plots/c_12_0.png, id=1416, 798.985pt x 774.895pt>
+<Figures/TN100Plots/c_12_0.png, id=616, 798.985pt x 774.895pt>
 File: Figures/TN100Plots/c_12_0.png Graphic file (type png)
 
 <use Figures/TN100Plots/c_12_0.png>
 Package pdftex.def Info: Figures/TN100Plots/c_12_0.png used on input line 125.
 (pdftex.def)             Requested size: 361.34999pt x 350.44946pt.
- [136 <./Figures/TN100Plots/c_12_0.png>]
-[137] [138]) (/Users/rdas/Thesis/Sections/DetectorSystematics.tex [139]
-[140] [141] [142]
+ [134 <./Figures/TN100Plots/c_12_0.png>]
+[135] [136]) (/Users/rdas/Thesis/Sections/DetectorSystematics.tex [137]
+[138] [139] [140]
 Package epstopdf Info: Source file: <Figures/Systematics/MatchingEfficiency/dRc
 osmics.eps>
 (epstopdf)                    date: 2014-02-24 17:07:24
@@ -1573,8 +1405,8 @@ ncy/dRcosmics.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/dRcosmics-eps-converted-to.pdf, id=1476
-, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/dRcosmics-eps-converted-to.pdf, id=639,
+ 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/dRcosmics-eps-converted-to.pdf Gra
 phic file (type pdf)
 
@@ -1596,8 +1428,8 @@ ncy/dXcosmics.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/dXcosmics-eps-converted-to.pdf, id=1477
-, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/dXcosmics-eps-converted-to.pdf, id=640,
+ 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/dXcosmics-eps-converted-to.pdf Gra
 phic file (type pdf)
 
@@ -1619,8 +1451,8 @@ ncy/dYcosmics.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/dYcosmics-eps-converted-to.pdf, id=1478
-, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/dYcosmics-eps-converted-to.pdf, id=641,
+ 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/dYcosmics-eps-converted-to.pdf Gra
 phic file (type pdf)
 
@@ -1646,8 +1478,8 @@ ncy/dScosmics.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/dScosmics-eps-converted-to.pdf, id=1479
-, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/dScosmics-eps-converted-to.pdf, id=642,
+ 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/dScosmics-eps-converted-to.pdf Gra
 phic file (type pdf)
 
@@ -1669,8 +1501,8 @@ ncy/dTcosmics.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/dTcosmics-eps-converted-to.pdf, id=1480
-, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/dTcosmics-eps-converted-to.pdf, id=643,
+ 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/dTcosmics-eps-converted-to.pdf Gra
 phic file (type pdf)
 
@@ -1696,8 +1528,8 @@ ngEfficiency/datadY-eps-converted-to.pdf Figures/Systematics/MatchingEfficiency
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/datadY-eps-converted-to.pdf, id=1481, 5
-69.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/datadY-eps-converted-to.pdf, id=644, 56
+9.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/datadY-eps-converted-to.pdf Graphi
 c file (type pdf)
 
@@ -1719,8 +1551,8 @@ cdY.eps>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/mcdY-eps-converted-to.pdf, id=1482, 569
-.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/mcdY-eps-converted-to.pdf, id=645, 569.
+12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/mcdY-eps-converted-to.pdf Graphic 
 file (type pdf)
 
@@ -1750,7 +1582,7 @@ fficiency/Eff_vs_Momentum.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/Systematics/MatchingEfficiency/Eff_vs_Momentum-eps-converted-to.pdf, i
-d=1483, 569.12625pt x 410.53375pt>
+d=646, 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/Eff_vs_Momentum-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1773,8 +1605,8 @@ ciency/Eff_vs_Theta.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/MatchingEfficiency/Eff_vs_Theta-eps-converted-to.pdf, id=1
-484, 569.12625pt x 410.53375pt>
+<Figures/Systematics/MatchingEfficiency/Eff_vs_Theta-eps-converted-to.pdf, id=6
+47, 569.12625pt x 410.53375pt>
 File: Figures/Systematics/MatchingEfficiency/Eff_vs_Theta-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1783,7 +1615,7 @@ Package pdftex.def Info: Figures/Systematics/MatchingEfficiency/Eff_vs_Theta-ep
 s-converted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-[143] [144]
+[141] [142]
 Package epstopdf Info: Source file: <Figures/delltaTmismatch.eps>
 (epstopdf)                    date: 2014-02-18 20:02:32
 (epstopdf)                    size: 158578 bytes
@@ -1796,7 +1628,7 @@ s-converted-to.pdf Figures/delltaTmismatch.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/delltaTmismatch-eps-converted-to.pdf, id=1510, 682.55pt x 855.195pt>
+<Figures/delltaTmismatch-eps-converted-to.pdf, id=655, 682.55pt x 855.195pt>
 File: Figures/delltaTmismatch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/delltaTmismatch-eps-converted-to.pdf>
@@ -1814,7 +1646,7 @@ verted-to.pdf Figures/t0mismatch.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/t0mismatch-eps-converted-to.pdf, id=1511, 682.55pt x 855.195pt>
+<Figures/t0mismatch-eps-converted-to.pdf, id=656, 682.55pt x 855.195pt>
 File: Figures/t0mismatch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/t0mismatch-eps-converted-to.pdf>
@@ -1825,7 +1657,7 @@ line 131.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[145] [146] [147]
+[143] [144] [145]
 Package epstopdf Info: Source file: <Figures/Systematics/HitEfficiency/Hiteffsa
 ndw.eps>
 (epstopdf)                    date: 2014-02-24 18:36:24
@@ -1840,8 +1672,8 @@ ffsandw.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/HitEfficiency/Hiteffsandw-eps-converted-to.pdf, id=1528, 5
-69.12625pt x 410.53375pt>
+<Figures/Systematics/HitEfficiency/Hiteffsandw-eps-converted-to.pdf, id=667, 56
+9.12625pt x 410.53375pt>
 File: Figures/Systematics/HitEfficiency/Hiteffsandw-eps-converted-to.pdf Graphi
 c file (type pdf)
 
@@ -1863,8 +1695,8 @@ ffsanda.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Systematics/HitEfficiency/Hiteffsanda-eps-converted-to.pdf, id=1529, 5
-69.12625pt x 410.53375pt>
+<Figures/Systematics/HitEfficiency/Hiteffsanda-eps-converted-to.pdf, id=668, 56
+9.12625pt x 410.53375pt>
 File: Figures/Systematics/HitEfficiency/Hiteffsanda-eps-converted-to.pdf Graphi
 c file (type pdf)
 
@@ -1873,25 +1705,25 @@ Package pdftex.def Info: Figures/Systematics/HitEfficiency/Hiteffsanda-eps-conv
 erted-to.pdf used on input line 188.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-[148] [149]
+[146] [147]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/layeff1.png, id=1546, 623.32875pt x 290.58563pt>
+<Figures/layeff1.png, id=675, 623.32875pt x 290.58563pt>
 File: Figures/layeff1.png Graphic file (type png)
 
 <use Figures/layeff1.png>
 Package pdftex.def Info: Figures/layeff1.png used on input line 261.
 (pdftex.def)             Requested size: 361.34999pt x 168.45554pt.
 
-<Figures/layeff2.png, id=1547, 623.32875pt x 290.58563pt>
+<Figures/layeff2.png, id=676, 623.32875pt x 290.58563pt>
 File: Figures/layeff2.png Graphic file (type png)
 
 <use Figures/layeff2.png>
 Package pdftex.def Info: Figures/layeff2.png used on input line 262.
 (pdftex.def)             Requested size: 361.34999pt x 168.45554pt.
 
-<Figures/layeff3.png, id=1548, 626.34pt x 290.58563pt>
+<Figures/layeff3.png, id=677, 626.34pt x 290.58563pt>
 File: Figures/layeff3.png Graphic file (type png)
 
 <use Figures/layeff3.png>
@@ -1904,30 +1736,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[150] [151]
-<Figures/Systematics/FVresolution.png, id=1564, 673.76718pt x 289.83281pt>
+[148] [149]
+<Figures/Systematics/FVresolution.png, id=684, 673.76718pt x 289.83281pt>
 File: Figures/Systematics/FVresolution.png Graphic file (type png)
 
 <use Figures/Systematics/FVresolution.png>
 Package pdftex.def Info: Figures/Systematics/FVresolution.png used on input lin
 e 334.
 (pdftex.def)             Requested size: 397.48499pt x 170.9866pt.
- [152] [153] [154] [155] [156]
-[157]
+ [150] [151] [152] [153] [154]
+[155]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[158] [159]
+[156] [157]
 Overfull \hbox (9.49799pt too wide) in paragraph at lines 469--479
  [][] 
  []
 
-[160]
+[158]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[161] [162] [163] [164]
-<Figures/tpc1matcheff.png, id=1654, 630.10406pt x 424.58624pt>
+[159] [160] [161] [162]
+<Figures/tpc1matcheff.png, id=727, 630.10406pt x 424.58624pt>
 File: Figures/tpc1matcheff.png Graphic file (type png)
 
 <use Figures/tpc1matcheff.png>
@@ -1937,8 +1769,8 @@ Package pdftex.def Info: Figures/tpc1matcheff.png used on input line 544.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[165] [166]
-<Figures/Systematics/chmisID1.png, id=1673, 465.23813pt x 377.15906pt>
+[163] [164]
+<Figures/Systematics/chmisID1.png, id=734, 465.23813pt x 377.15906pt>
 File: Figures/Systematics/chmisID1.png Graphic file (type png)
 
 <use Figures/Systematics/chmisID1.png>
@@ -1949,45 +1781,43 @@ Package pdftex.def Info: Figures/Systematics/chmisID1.png used on input line 58
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[167] [168] [169]
+[165] [166] [167]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[170] [171] [172 <./Figures/Systematics/MatchingEfficiency/dRcosmics-eps-conver
+[168] [169] [170 <./Figures/Systematics/MatchingEfficiency/dRcosmics-eps-conver
 ted-to.pdf> <./Figures/Systematics/MatchingEfficiency/dXcosmics-eps-converted-t
 o.pdf> <./Figures/Systematics/MatchingEfficiency/dYcosmics-eps-converted-to.pdf
->] [173 <./Figures/Systematics/MatchingEfficiency/dScosmics-eps-converted-to.pd
+>] [171 <./Figures/Systematics/MatchingEfficiency/dScosmics-eps-converted-to.pd
 f> <./Figures/Systematics/MatchingEfficiency/dTcosmics-eps-converted-to.pdf> <.
 /Figures/Systematics/MatchingEfficiency/datadY-eps-converted-to.pdf> <./Figures
-/Systematics/MatchingEfficiency/mcdY-eps-converted-to.pdf>] [174 <./Figures/Sys
+/Systematics/MatchingEfficiency/mcdY-eps-converted-to.pdf>] [172 <./Figures/Sys
 tematics/MatchingEfficiency/Eff_vs_Momentum-eps-converted-to.pdf> <./Figures/Sy
 stematics/MatchingEfficiency/Eff_vs_Theta-eps-converted-to.pdf> <./Figures/dell
 taTmismatch-eps-converted-to.pdf> <./Figures/t0mismatch-eps-converted-to.pdf>]
-[175 <./Figures/Systematics/HitEfficiency/Hiteffsandw-eps-converted-to.pdf> <./
-Figures/Systematics/HitEfficiency/Hiteffsanda-eps-converted-to.pdf>] [176 <./Fi
-gures/layeff1.png> <./Figures/layeff2.png> <./Figures/layeff3.png>] [177 <./Fig
-ures/Systematics/FVresolution.png> <./Figures/tpc1matcheff.png>] [178 <./Figure
+[173 <./Figures/Systematics/HitEfficiency/Hiteffsandw-eps-converted-to.pdf> <./
+Figures/Systematics/HitEfficiency/Hiteffsanda-eps-converted-to.pdf>] [174 <./Fi
+gures/layeff1.png> <./Figures/layeff2.png> <./Figures/layeff3.png>] [175 <./Fig
+ures/Systematics/FVresolution.png> <./Figures/tpc1matcheff.png>] [176 <./Figure
 s/Systematics/chmisID1.png>]
 Overfull \hbox (19.97737pt too wide) detected at line 706
 \OML/cmm/m/it/12 ^^[[] \OT1/cmr/m/n/12 = [] [] \OML/cmm/m/it/12 :
  []
 
-[179
+[177
 
-] [180] [181]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[182] [183] [184] [185] [186] [187]
+] [178] [179]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[188] [189]) [190
+[180] [181] [182] [183] [184] [185] [186]
 
-] (/Users/rdas/Thesis/Sections/Results.tex [191
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-] [192]
-[193] <Figures/XSec.png, id=1918, 899.36pt x 674.52pt>
+) [187] [188] (/Users/rdas/Thesis/Sections/Results.tex [189
+
+] [190] [191]
+<Figures/XSec.png, id=890, 899.36pt x 674.52pt>
 File: Figures/XSec.png Graphic file (type png)
  <use Figures/XSec.png>
 Package pdftex.def Info: Figures/XSec.png used on input line 46.
@@ -2000,15 +1830,15 @@ Overfull \hbox (36.13498pt too wide) in paragraph at lines 46--47
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [194] [195 <./Figures/XSec.png>] (/Users/rdas/Thesis/References.tex [196
+) [192] [193 <./Figures/XSec.png>] (/Users/rdas/Thesis/References.tex [194
 
 ]
-[197]
+[195]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 119.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [198]
+) [196]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 132.
 
 
@@ -2017,50 +1847,36 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 132.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
- [199]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
-
-(./T2KThesis_RDas.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `T2KThesis_RDas.out' has not changed.
-(rerunfilecheck)             Checksum: F4A497667911B4141A6956BE8FF62048;4312.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
- ) 
+) [197]
+(./T2KThesis_RDas.aux) ) 
 Here is how much of TeX's memory you used:
- 9042 strings out of 493089
- 139571 string characters out of 6134842
- 254697 words of memory out of 5000000
- 11641 multiletter control sequences out of 15000+600000
+ 5014 strings out of 493089
+ 81286 string characters out of 6134842
+ 148438 words of memory out of 5000000
+ 8195 multiletter control sequences out of 15000+600000
  21547 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,17n,43p,2114b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on T2KThesis_RDas.pdf (206 pages, 5888635 bytes).
+ 37i,17n,43p,2114b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on T2KThesis_RDas.pdf (204 pages, 5857220 bytes).
 PDF statistics:
- 2129 PDF objects out of 2487 (max. 8388607)
- 1699 compressed objects within 17 object streams
- 566 named destinations out of 1000 (max. 500000)
- 1059 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 967 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 611 words of extra memory for PDF output out of 10000 (max. 10000000)
 
